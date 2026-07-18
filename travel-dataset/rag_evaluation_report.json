@@ -1,0 +1,1844 @@
+{
+  "generated_at": "2026-07-17T04:18:45.462Z",
+  "service": "http://127.0.0.1:8091",
+  "metric_definition": {
+    "top1_chunk_accuracy": "第一条结果命中评测样例标注的 gold chunk，或命中其 gold source 对应片段。",
+    "top5_chunk_recall": "前五条结果至少一条命中 gold chunk。",
+    "top5_poi_hit_rate": "前五条结果至少一条属于预期 POI。",
+    "city_isolation": "结果元数据全部属于查询城市。"
+  },
+  "reports": [
+    {
+      "dataset": "beijing",
+      "evaluated_cases": 49,
+      "top1_chunk_accuracy_percent": 91.84,
+      "top5_chunk_recall_percent": 95.92,
+      "top5_poi_hit_rate_percent": 97.96,
+      "city_isolation_percent": 100,
+      "trusted_cases": 49,
+      "trusted_top5_chunk_recall_percent": 95.92,
+      "failed_case_ids": [
+        "BJ-EXP-E-002",
+        "BJ-EXP-E-006"
+      ],
+      "details": [
+        {
+          "eval_id": "BJ-RAG-001",
+          "question": "故宫周一开放吗？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-001-02",
+            "BJ-001-10",
+            "BJ-001-08",
+            "BJ-001-13",
+            "BJ-001-03"
+          ],
+          "expected_chunk_ids": [
+            "BJ-001-01",
+            "BJ-001-02",
+            "BJ-001-03",
+            "BJ-001-04",
+            "BJ-001-10",
+            "BJ-001-12",
+            "BJ-001-13"
+          ],
+          "expected_poi_ids": [
+            "BJ-001"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-RAG-002",
+          "question": "故宫门票可以当天买吗？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-001-09",
+            "BJ-001-03",
+            "BJ-001-12",
+            "BJ-001-13",
+            "BJ-001-08"
+          ],
+          "expected_chunk_ids": [
+            "BJ-001-01",
+            "BJ-001-03",
+            "BJ-001-04",
+            "BJ-001-05",
+            "BJ-001-08",
+            "BJ-001-09",
+            "BJ-001-12",
+            "BJ-001-13",
+            "BJ-001-14"
+          ],
+          "expected_poi_ids": [
+            "BJ-001"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-RAG-003",
+          "question": "故宫从哪个门进？参观后从哪里出？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-001-10",
+            "BJ-001-08",
+            "BJ-001-09",
+            "BJ-001-03",
+            "BJ-001-04"
+          ],
+          "expected_chunk_ids": [
+            "BJ-001-01",
+            "BJ-001-02",
+            "BJ-001-03",
+            "BJ-001-04",
+            "BJ-001-10",
+            "BJ-001-12",
+            "BJ-001-13",
+            "BJ-001-05",
+            "BJ-001-08",
+            "BJ-001-09",
+            "BJ-001-14"
+          ],
+          "expected_poi_ids": [
+            "BJ-001"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-RAG-004",
+          "question": "故宫上午预约最晚几点检票？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-001-09",
+            "BJ-001-03",
+            "BJ-001-12",
+            "BJ-001-10",
+            "BJ-001-08"
+          ],
+          "expected_chunk_ids": [
+            "BJ-001-01",
+            "BJ-001-03",
+            "BJ-001-04",
+            "BJ-001-05",
+            "BJ-001-08",
+            "BJ-001-09",
+            "BJ-001-12",
+            "BJ-001-13",
+            "BJ-001-14",
+            "BJ-001-11"
+          ],
+          "expected_poi_ids": [
+            "BJ-001"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-RAG-005",
+          "question": "故宫门票什么时候退票不算爽约？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-001-09",
+            "BJ-001-08",
+            "BJ-001-03",
+            "BJ-001-10",
+            "BJ-001-12"
+          ],
+          "expected_chunk_ids": [
+            "BJ-001-08",
+            "BJ-001-09",
+            "BJ-001-11",
+            "BJ-001-14"
+          ],
+          "expected_poi_ids": [
+            "BJ-001"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-RAG-006",
+          "question": "故宫可以带无人机和露营椅吗？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-001-05",
+            "BJ-001-08",
+            "BJ-001-12",
+            "BJ-001-09",
+            "BJ-001-14"
+          ],
+          "expected_chunk_ids": [
+            "BJ-001-05",
+            "BJ-001-08",
+            "BJ-001-09",
+            "BJ-001-11",
+            "BJ-001-14"
+          ],
+          "expected_poi_ids": [
+            "BJ-001"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-RAG-007",
+          "question": "带20寸行李箱去故宫怎么办？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-001-11",
+            "BJ-001-05",
+            "BJ-001-12",
+            "BJ-001-03",
+            "BJ-001-08"
+          ],
+          "expected_chunk_ids": [
+            "BJ-001-08",
+            "BJ-001-09",
+            "BJ-001-11",
+            "BJ-001-14"
+          ],
+          "expected_poi_ids": [
+            "BJ-001"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-RAG-008",
+          "question": "老人去故宫当天还适合安排长城吗？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-001-14",
+            "BJ-001-11",
+            "BJ-001-04",
+            "BJ-001-13",
+            "BJ-001-12"
+          ],
+          "expected_chunk_ids": [
+            "BJ-001-01",
+            "BJ-001-03",
+            "BJ-001-04",
+            "BJ-001-05",
+            "BJ-001-08",
+            "BJ-001-09",
+            "BJ-001-12",
+            "BJ-001-13",
+            "BJ-001-14",
+            "BJ-001-11"
+          ],
+          "expected_poi_ids": [
+            "BJ-001"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-RAG-009",
+          "question": "武英殿陶瓷馆现在是否闭馆？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-001-07",
+            "BJ-012-03",
+            "BJ-017-03",
+            "BJ-014-03",
+            "BJ-030-03"
+          ],
+          "expected_chunk_ids": [
+            "BJ-001-07"
+          ],
+          "expected_poi_ids": [
+            "BJ-001"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-RAG-010",
+          "question": "故宫今天还有没有余票？",
+          "top1_chunk_hit": false,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-001-10",
+            "BJ-001-03",
+            "BJ-001-08",
+            "BJ-001-14",
+            "BJ-001-12"
+          ],
+          "expected_chunk_ids": [
+            "BJ-001-01",
+            "BJ-001-03",
+            "BJ-001-04",
+            "BJ-001-05",
+            "BJ-001-08",
+            "BJ-001-09",
+            "BJ-001-12",
+            "BJ-001-13",
+            "BJ-001-14"
+          ],
+          "expected_poi_ids": [
+            "BJ-001"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-EXP-E-001",
+          "question": "故宫和国家博物馆能在一天深度游吗？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-015-01",
+            "BJ-001-08",
+            "BJ-001-11",
+            "BJ-001-05",
+            "BJ-001-09"
+          ],
+          "expected_chunk_ids": [
+            "BJ-015-01"
+          ],
+          "expected_poi_ids": [
+            "BJ-015"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-EXP-E-002",
+          "question": "周一带孩子去北京，有哪些室内景点？",
+          "top1_chunk_hit": false,
+          "top5_chunk_hit": false,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-001-10",
+            "BJ-001-08",
+            "BJ-001-05",
+            "BJ-019-01",
+            "BJ-001-03"
+          ],
+          "expected_chunk_ids": [
+            "BJ-016-02",
+            "BJ-018-02",
+            "BJ-019-02"
+          ],
+          "expected_poi_ids": [
+            "BJ-016",
+            "BJ-018",
+            "BJ-019"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-EXP-E-003",
+          "question": "我想秋天去北京赏红叶并爬山。",
+          "top1_chunk_hit": false,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-001-10",
+            "BJ-001-02",
+            "BJ-008-01",
+            "BJ-005-01",
+            "BJ-001-03"
+          ],
+          "expected_chunk_ids": [
+            "BJ-008-01",
+            "BJ-008-02"
+          ],
+          "expected_poi_ids": [
+            "BJ-008"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-EXP-E-004",
+          "question": "明天去环球影城还有票吗，哪个项目排队最短？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-022-02",
+            "BJ-020-02",
+            "BJ-030-01",
+            "BJ-028-01",
+            "BJ-002-03"
+          ],
+          "expected_chunk_ids": [
+            "BJ-022-02"
+          ],
+          "expected_poi_ids": [
+            "BJ-022"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-EXP-E-005",
+          "question": "老人和孩子一起去长城，八达岭还是慕田峪？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-023-01",
+            "BJ-001-14",
+            "BJ-001-13",
+            "BJ-001-05",
+            "BJ-001-11"
+          ],
+          "expected_chunk_ids": [
+            "BJ-023-01",
+            "BJ-024-01",
+            "BJ-024-02"
+          ],
+          "expected_poi_ids": [
+            "BJ-023",
+            "BJ-024"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-EXP-E-006",
+          "question": "我只想晚上逛北京，有什么适合住宿的周边目的地？",
+          "top1_chunk_hit": false,
+          "top5_chunk_hit": false,
+          "top5_poi_hit": false,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-001-02",
+            "BJ-001-12",
+            "BJ-001-10",
+            "BJ-001-05",
+            "BJ-001-09"
+          ],
+          "expected_chunk_ids": [
+            "BJ-026-01",
+            "BJ-026-02"
+          ],
+          "expected_poi_ids": [
+            "BJ-026"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-EXP-E-007",
+          "question": "下雨天带孩子去科技馆和动物园怎么安排？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-018-01",
+            "BJ-020-01",
+            "BJ-001-05",
+            "BJ-007-01",
+            "BJ-001-11"
+          ],
+          "expected_chunk_ids": [
+            "BJ-018-01",
+            "BJ-018-02",
+            "BJ-020-02"
+          ],
+          "expected_poi_ids": [
+            "BJ-018",
+            "BJ-020"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-EXP-E-008",
+          "question": "去798今天有什么展？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-021-02",
+            "BJ-027-02",
+            "BJ-021-03",
+            "BJ-020-02",
+            "BJ-007-03"
+          ],
+          "expected_chunk_ids": [
+            "BJ-021-02"
+          ],
+          "expected_poi_ids": [
+            "BJ-021"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-EXP-E-009",
+          "question": "夏天十渡可以漂流吗？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-030-01",
+            "BJ-030-02",
+            "BJ-030-03",
+            "BJ-028-01",
+            "BJ-020-02"
+          ],
+          "expected_chunk_ids": [
+            "BJ-030-01",
+            "BJ-030-02"
+          ],
+          "expected_poi_ids": [
+            "BJ-030"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-EXP-E-010",
+          "question": "我预约了故宫上午场，能先去天安门广场吗？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-002-02",
+            "BJ-002-03",
+            "BJ-001-09",
+            "BJ-002-01",
+            "BJ-001-10"
+          ],
+          "expected_chunk_ids": [
+            "BJ-002-01",
+            "BJ-002-02"
+          ],
+          "expected_poi_ids": [
+            "BJ-002"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-002-E-01",
+          "question": "天安门广场今天开放吗？需要预约吗？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-002-02",
+            "BJ-002-03",
+            "BJ-002-01",
+            "BJ-019-02",
+            "BJ-016-02"
+          ],
+          "expected_chunk_ids": [
+            "BJ-002-03",
+            "BJ-002-01",
+            "BJ-002-02"
+          ],
+          "expected_poi_ids": [
+            "BJ-002"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-003-E-01",
+          "question": "天坛公园今天开放吗？需要预约吗？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-003-02",
+            "BJ-003-03",
+            "BJ-003-01",
+            "BJ-019-02",
+            "BJ-002-02"
+          ],
+          "expected_chunk_ids": [
+            "BJ-003-03",
+            "BJ-003-01",
+            "BJ-003-02"
+          ],
+          "expected_poi_ids": [
+            "BJ-003"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-004-E-01",
+          "question": "颐和园今天开放吗？需要预约吗？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-004-03",
+            "BJ-004-01",
+            "BJ-004-02",
+            "BJ-019-02",
+            "BJ-002-02"
+          ],
+          "expected_chunk_ids": [
+            "BJ-004-03",
+            "BJ-004-01",
+            "BJ-004-02"
+          ],
+          "expected_poi_ids": [
+            "BJ-004"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-005-E-01",
+          "question": "北海公园今天开放吗？需要预约吗？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-005-02",
+            "BJ-005-03",
+            "BJ-005-01",
+            "BJ-019-02",
+            "BJ-002-02"
+          ],
+          "expected_chunk_ids": [
+            "BJ-005-03",
+            "BJ-005-01",
+            "BJ-005-02"
+          ],
+          "expected_poi_ids": [
+            "BJ-005"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-006-E-01",
+          "question": "景山公园今天开放吗？需要预约吗？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-006-02",
+            "BJ-006-03",
+            "BJ-006-01",
+            "BJ-008-02",
+            "BJ-019-02"
+          ],
+          "expected_chunk_ids": [
+            "BJ-006-03",
+            "BJ-006-01",
+            "BJ-006-02"
+          ],
+          "expected_poi_ids": [
+            "BJ-006"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-007-E-01",
+          "question": "圆明园遗址公园今天开放吗？需要预约吗？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-007-03",
+            "BJ-007-02",
+            "BJ-007-01",
+            "BJ-019-02",
+            "BJ-021-02"
+          ],
+          "expected_chunk_ids": [
+            "BJ-007-03",
+            "BJ-007-01",
+            "BJ-007-02"
+          ],
+          "expected_poi_ids": [
+            "BJ-007"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-008-E-01",
+          "question": "香山公园今天开放吗？需要预约吗？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-008-02",
+            "BJ-008-03",
+            "BJ-008-01",
+            "BJ-019-02",
+            "BJ-006-02"
+          ],
+          "expected_chunk_ids": [
+            "BJ-008-03",
+            "BJ-008-01",
+            "BJ-008-02"
+          ],
+          "expected_poi_ids": [
+            "BJ-008"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-009-E-01",
+          "question": "北京植物园今天开放吗？需要预约吗？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-009-03",
+            "BJ-009-02",
+            "BJ-009-01",
+            "BJ-019-02",
+            "BJ-020-03"
+          ],
+          "expected_chunk_ids": [
+            "BJ-009-03",
+            "BJ-009-01",
+            "BJ-009-02"
+          ],
+          "expected_poi_ids": [
+            "BJ-009"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-010-E-01",
+          "question": "奥林匹克公园今天开放吗？需要预约吗？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-010-03",
+            "BJ-010-02",
+            "BJ-010-01",
+            "BJ-011-01",
+            "BJ-019-02"
+          ],
+          "expected_chunk_ids": [
+            "BJ-010-03",
+            "BJ-010-01",
+            "BJ-010-02"
+          ],
+          "expected_poi_ids": [
+            "BJ-010"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-011-E-01",
+          "question": "国家体育场（鸟巢）今天开放吗？需要预约吗？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-011-03",
+            "BJ-011-01",
+            "BJ-011-02",
+            "BJ-015-02",
+            "BJ-015-03"
+          ],
+          "expected_chunk_ids": [
+            "BJ-011-03",
+            "BJ-011-01",
+            "BJ-010-02",
+            "BJ-011-02"
+          ],
+          "expected_poi_ids": [
+            "BJ-011",
+            "BJ-010"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-012-E-01",
+          "question": "恭王府博物馆今天开放吗？需要预约吗？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-012-03",
+            "BJ-012-02",
+            "BJ-012-01",
+            "BJ-019-02",
+            "BJ-016-02"
+          ],
+          "expected_chunk_ids": [
+            "BJ-012-03",
+            "BJ-012-01",
+            "BJ-012-02"
+          ],
+          "expected_poi_ids": [
+            "BJ-012"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-013-E-01",
+          "question": "雍和宫今天开放吗？需要预约吗？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-013-03",
+            "BJ-013-02",
+            "BJ-013-01",
+            "BJ-019-02",
+            "BJ-002-02"
+          ],
+          "expected_chunk_ids": [
+            "BJ-013-03",
+            "BJ-013-01",
+            "BJ-013-02"
+          ],
+          "expected_poi_ids": [
+            "BJ-013"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-014-E-01",
+          "question": "北京孔庙和国子监博物馆今天开放吗？需要预约吗？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-014-03",
+            "BJ-014-02",
+            "BJ-014-01",
+            "BJ-019-02",
+            "BJ-016-02"
+          ],
+          "expected_chunk_ids": [
+            "BJ-014-03",
+            "BJ-014-01",
+            "BJ-014-02"
+          ],
+          "expected_poi_ids": [
+            "BJ-014"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-015-E-01",
+          "question": "中国国家博物馆今天开放吗？需要预约吗？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-015-03",
+            "BJ-015-02",
+            "BJ-015-01",
+            "BJ-019-02",
+            "BJ-017-03"
+          ],
+          "expected_chunk_ids": [
+            "BJ-015-03",
+            "BJ-015-01",
+            "BJ-015-02"
+          ],
+          "expected_poi_ids": [
+            "BJ-015"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-016-E-01",
+          "question": "首都博物馆今天开放吗？需要预约吗？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-016-02",
+            "BJ-016-03",
+            "BJ-016-01",
+            "BJ-019-02",
+            "BJ-012-03"
+          ],
+          "expected_chunk_ids": [
+            "BJ-016-03",
+            "BJ-016-01",
+            "BJ-016-02"
+          ],
+          "expected_poi_ids": [
+            "BJ-016"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-017-E-01",
+          "question": "中国人民革命军事博物馆今天开放吗？需要预约吗？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-017-03",
+            "BJ-017-01",
+            "BJ-017-02",
+            "BJ-019-02",
+            "BJ-016-02"
+          ],
+          "expected_chunk_ids": [
+            "BJ-017-03",
+            "BJ-017-01",
+            "BJ-017-02"
+          ],
+          "expected_poi_ids": [
+            "BJ-017"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-018-E-01",
+          "question": "中国科学技术馆今天开放吗？需要预约吗？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-018-03",
+            "BJ-018-02",
+            "BJ-018-01",
+            "BJ-016-02",
+            "BJ-019-02"
+          ],
+          "expected_chunk_ids": [
+            "BJ-018-03",
+            "BJ-018-01",
+            "BJ-010-02",
+            "BJ-018-02"
+          ],
+          "expected_poi_ids": [
+            "BJ-018",
+            "BJ-010"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-019-E-01",
+          "question": "北京自然博物馆今天开放吗？需要预约吗？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-019-02",
+            "BJ-019-03",
+            "BJ-019-01",
+            "BJ-029-03",
+            "BJ-016-02"
+          ],
+          "expected_chunk_ids": [
+            "BJ-019-03",
+            "BJ-019-01",
+            "BJ-019-02"
+          ],
+          "expected_poi_ids": [
+            "BJ-019"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-020-E-01",
+          "question": "北京动物园今天开放吗？需要预约吗？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-020-02",
+            "BJ-020-03",
+            "BJ-020-01",
+            "BJ-019-02",
+            "BJ-027-01"
+          ],
+          "expected_chunk_ids": [
+            "BJ-020-03",
+            "BJ-020-01",
+            "BJ-020-02"
+          ],
+          "expected_poi_ids": [
+            "BJ-020"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-021-E-01",
+          "question": "798艺术区今天开放吗？需要预约吗？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-021-03",
+            "BJ-021-01",
+            "BJ-021-02",
+            "BJ-016-02",
+            "BJ-002-02"
+          ],
+          "expected_chunk_ids": [
+            "BJ-021-03",
+            "BJ-021-01",
+            "BJ-021-02"
+          ],
+          "expected_poi_ids": [
+            "BJ-021"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-022-E-01",
+          "question": "北京环球度假区今天开放吗？需要预约吗？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-022-03",
+            "BJ-022-02",
+            "BJ-022-01",
+            "BJ-019-02",
+            "BJ-002-02"
+          ],
+          "expected_chunk_ids": [
+            "BJ-022-03",
+            "BJ-022-01",
+            "BJ-022-02"
+          ],
+          "expected_poi_ids": [
+            "BJ-022"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-023-E-01",
+          "question": "八达岭长城今天开放吗？需要预约吗？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-023-02",
+            "BJ-023-03",
+            "BJ-023-01",
+            "BJ-019-02",
+            "BJ-016-02"
+          ],
+          "expected_chunk_ids": [
+            "BJ-023-03",
+            "BJ-023-01",
+            "BJ-023-02"
+          ],
+          "expected_poi_ids": [
+            "BJ-023"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-024-E-01",
+          "question": "慕田峪长城今天开放吗？需要预约吗？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-024-03",
+            "BJ-024-02",
+            "BJ-024-01",
+            "BJ-016-02",
+            "BJ-019-02"
+          ],
+          "expected_chunk_ids": [
+            "BJ-024-03",
+            "BJ-024-01",
+            "BJ-024-02"
+          ],
+          "expected_poi_ids": [
+            "BJ-024"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-025-E-01",
+          "question": "明十三陵今天开放吗？需要预约吗？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-025-03",
+            "BJ-025-02",
+            "BJ-025-01",
+            "BJ-019-02",
+            "BJ-016-02"
+          ],
+          "expected_chunk_ids": [
+            "BJ-025-03",
+            "BJ-025-01",
+            "BJ-025-02"
+          ],
+          "expected_poi_ids": [
+            "BJ-025"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-026-E-01",
+          "question": "古北水镇今天开放吗？需要预约吗？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-026-03",
+            "BJ-026-02",
+            "BJ-026-01",
+            "BJ-019-02",
+            "BJ-002-02"
+          ],
+          "expected_chunk_ids": [
+            "BJ-026-03",
+            "BJ-026-01",
+            "BJ-026-02"
+          ],
+          "expected_poi_ids": [
+            "BJ-026"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-027-E-01",
+          "question": "北京世界公园今天开放吗？需要预约吗？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-027-03",
+            "BJ-027-01",
+            "BJ-027-02",
+            "BJ-019-02",
+            "BJ-002-02"
+          ],
+          "expected_chunk_ids": [
+            "BJ-027-03",
+            "BJ-027-01",
+            "BJ-027-02"
+          ],
+          "expected_poi_ids": [
+            "BJ-027"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-028-E-01",
+          "question": "北京欢乐谷今天开放吗？需要预约吗？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-028-03",
+            "BJ-028-01",
+            "BJ-028-02",
+            "BJ-019-02",
+            "BJ-002-02"
+          ],
+          "expected_chunk_ids": [
+            "BJ-028-03",
+            "BJ-028-01",
+            "BJ-028-02"
+          ],
+          "expected_poi_ids": [
+            "BJ-028"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-029-E-01",
+          "question": "周口店北京人遗址博物馆今天开放吗？需要预约吗？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-029-03",
+            "BJ-029-02",
+            "BJ-029-01",
+            "BJ-019-02",
+            "BJ-019-03"
+          ],
+          "expected_chunk_ids": [
+            "BJ-029-03",
+            "BJ-029-01",
+            "BJ-029-02"
+          ],
+          "expected_poi_ids": [
+            "BJ-029"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "BJ-030-E-01",
+          "question": "十渡风景区今天开放吗？需要预约吗？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "BJ-030-03",
+            "BJ-030-01",
+            "BJ-030-02",
+            "BJ-002-02",
+            "BJ-019-02"
+          ],
+          "expected_chunk_ids": [
+            "BJ-030-03",
+            "BJ-030-01",
+            "BJ-030-02"
+          ],
+          "expected_poi_ids": [
+            "BJ-030"
+          ],
+          "trusted_case": true
+        }
+      ]
+    },
+    {
+      "dataset": "hangzhou",
+      "evaluated_cases": 20,
+      "top1_chunk_accuracy_percent": 85,
+      "top5_chunk_recall_percent": 90,
+      "top5_poi_hit_rate_percent": 100,
+      "city_isolation_percent": 100,
+      "trusted_cases": 16,
+      "trusted_top5_chunk_recall_percent": 100,
+      "failed_case_ids": [
+        "HZ-RAG-014",
+        "HZ-RAG-019"
+      ],
+      "details": [
+        {
+          "eval_id": "HZ-RAG-001",
+          "question": "西湖要门票吗？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "HZ-001-02",
+            "HZ-001-03",
+            "HZ-001-01",
+            "HZ-014-01",
+            "HZ-012-01"
+          ],
+          "expected_chunk_ids": [
+            "HZ-001-01",
+            "HZ-001-02",
+            "HZ-001-03",
+            "HZ-001-04"
+          ],
+          "expected_poi_ids": [
+            "HZ-001",
+            "HZ-003",
+            "HZ-004",
+            "HZ-005",
+            "HZ-012",
+            "HZ-002"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "HZ-RAG-002",
+          "question": "灵隐寺门票多少钱？需要预约吗？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "HZ-002-02",
+            "HZ-002-01",
+            "HZ-002-03",
+            "HZ-001-02",
+            "HZ-015-01"
+          ],
+          "expected_chunk_ids": [
+            "HZ-002-01",
+            "HZ-002-02",
+            "HZ-002-03",
+            "HZ-003-02"
+          ],
+          "expected_poi_ids": [
+            "HZ-002",
+            "HZ-003"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "HZ-RAG-003",
+          "question": "德寿宫怎么预约？周一能去吗？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "HZ-009-01",
+            "HZ-009-02",
+            "HZ-CROSS-01",
+            "HZ-007-02",
+            "HZ-004-01"
+          ],
+          "expected_chunk_ids": [
+            "HZ-009-01",
+            "HZ-009-02"
+          ],
+          "expected_poi_ids": [
+            "HZ-009"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "HZ-RAG-004",
+          "question": "西湖坐地铁到哪站？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "HZ-001-03",
+            "HZ-001-01",
+            "HZ-001-02",
+            "HZ-015-02",
+            "HZ-014-02"
+          ],
+          "expected_chunk_ids": [
+            "HZ-001-01",
+            "HZ-001-02",
+            "HZ-001-03"
+          ],
+          "expected_poi_ids": [
+            "HZ-001",
+            "HZ-003",
+            "HZ-004",
+            "HZ-005",
+            "HZ-012"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "HZ-RAG-005",
+          "question": "小河直街怎么去？能坐船吗？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "HZ-006-02",
+            "HZ-006-01",
+            "HZ-CROSS-01",
+            "HZ-008-02",
+            "HZ-007-01"
+          ],
+          "expected_chunk_ids": [
+            "HZ-006-01",
+            "HZ-006-02",
+            "HZ-007-01",
+            "HZ-007-02",
+            "HZ-008-01",
+            "HZ-008-02"
+          ],
+          "expected_poi_ids": [
+            "HZ-006",
+            "HZ-007",
+            "HZ-008"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "HZ-RAG-006",
+          "question": "西湖游船有哪些种类？怎么收费？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "HZ-001-02",
+            "HZ-001-03",
+            "HZ-001-01",
+            "HZ-CROSS-01",
+            "HZ-014-01"
+          ],
+          "expected_chunk_ids": [
+            "HZ-001-02",
+            "HZ-001-04"
+          ],
+          "expected_poi_ids": [
+            "HZ-001",
+            "HZ-002",
+            "HZ-003",
+            "HZ-004"
+          ],
+          "trusted_case": false
+        },
+        {
+          "eval_id": "HZ-RAG-007",
+          "question": "杭州动物园多少钱？小孩免费吗？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "HZ-012-01",
+            "HZ-012-02",
+            "HZ-007-01",
+            "HZ-005-01",
+            "HZ-005-02"
+          ],
+          "expected_chunk_ids": [
+            "HZ-012-01",
+            "HZ-012-02"
+          ],
+          "expected_poi_ids": [
+            "HZ-012"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "HZ-RAG-008",
+          "question": "雷峰塔和岳王庙哪个贵？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "HZ-004-02",
+            "HZ-003-02",
+            "HZ-003-01",
+            "HZ-004-01",
+            "HZ-001-02"
+          ],
+          "expected_chunk_ids": [
+            "HZ-003-01",
+            "HZ-003-02",
+            "HZ-004-01",
+            "HZ-004-02"
+          ],
+          "expected_poi_ids": [
+            "HZ-003",
+            "HZ-004"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "HZ-RAG-009",
+          "question": "杭州哪些景点周一闭馆？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "HZ-010-02",
+            "HZ-012-02",
+            "HZ-007-01",
+            "HZ-CROSS-01",
+            "HZ-009-02"
+          ],
+          "expected_chunk_ids": [
+            "HZ-009-01",
+            "HZ-009-02",
+            "HZ-006-01",
+            "HZ-006-02",
+            "HZ-007-01",
+            "HZ-007-02",
+            "HZ-008-01",
+            "HZ-008-02",
+            "HZ-010-01",
+            "HZ-010-02"
+          ],
+          "expected_poi_ids": [
+            "HZ-009",
+            "HZ-006",
+            "HZ-007",
+            "HZ-008",
+            "HZ-010"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "HZ-RAG-010",
+          "question": "老人和小孩去西湖有什么推荐路线？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "HZ-001-03",
+            "HZ-001-02",
+            "HZ-001-01",
+            "HZ-004-01",
+            "HZ-008-02"
+          ],
+          "expected_chunk_ids": [
+            "HZ-001-01",
+            "HZ-001-02",
+            "HZ-001-03",
+            "HZ-001-04",
+            "HZ-002-01",
+            "HZ-002-02",
+            "HZ-002-03"
+          ],
+          "expected_poi_ids": [
+            "HZ-001",
+            "HZ-002",
+            "HZ-003",
+            "HZ-004",
+            "HZ-005",
+            "HZ-012"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "HZ-RAG-011",
+          "question": "西湖一天怎么安排路线？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "HZ-001-03",
+            "HZ-001-01",
+            "HZ-001-02",
+            "HZ-014-01",
+            "HZ-015-02"
+          ],
+          "expected_chunk_ids": [
+            "HZ-001-01",
+            "HZ-001-02",
+            "HZ-001-03"
+          ],
+          "expected_poi_ids": [
+            "HZ-001",
+            "HZ-003",
+            "HZ-004",
+            "HZ-005",
+            "HZ-012"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "HZ-RAG-012",
+          "question": "南宋文化半日游怎么安排？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "HZ-009-02",
+            "HZ-015-02",
+            "HZ-011-02",
+            "HZ-005-01",
+            "HZ-009-01"
+          ],
+          "expected_chunk_ids": [
+            "HZ-009-01",
+            "HZ-009-02",
+            "HZ-011-01",
+            "HZ-011-02",
+            "HZ-015-01",
+            "HZ-015-02"
+          ],
+          "expected_poi_ids": [
+            "HZ-009",
+            "HZ-011",
+            "HZ-015"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "HZ-RAG-013",
+          "question": "带无人机去西湖可以飞吗？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "HZ-001-01",
+            "HZ-001-03",
+            "HZ-001-02",
+            "HZ-004-01",
+            "HZ-012-01"
+          ],
+          "expected_chunk_ids": [
+            "HZ-001-01",
+            "HZ-001-02",
+            "HZ-001-03"
+          ],
+          "expected_poi_ids": [
+            "HZ-001",
+            "HZ-003",
+            "HZ-004",
+            "HZ-005",
+            "HZ-012"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "HZ-RAG-014",
+          "question": "西湖晚上有什么好玩的？",
+          "top1_chunk_hit": false,
+          "top5_chunk_hit": false,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "HZ-001-01",
+            "HZ-001-03",
+            "HZ-001-02",
+            "HZ-014-01",
+            "HZ-011-02"
+          ],
+          "expected_chunk_ids": [
+            "HZ-001-04"
+          ],
+          "expected_poi_ids": [
+            "HZ-001",
+            "HZ-002",
+            "HZ-003"
+          ],
+          "trusted_case": false
+        },
+        {
+          "eval_id": "HZ-RAG-015",
+          "question": "城市阳台灯光秀什么时候有？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "HZ-013-01",
+            "HZ-013-02",
+            "HZ-CROSS-01",
+            "HZ-001-03",
+            "HZ-014-01"
+          ],
+          "expected_chunk_ids": [
+            "HZ-013-01",
+            "HZ-013-02"
+          ],
+          "expected_poi_ids": [
+            "HZ-013"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "HZ-RAG-016",
+          "question": "灵隐寺暑期限流吗？要提前多久预约？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "HZ-002-02",
+            "HZ-002-01",
+            "HZ-002-03",
+            "HZ-001-02",
+            "HZ-014-02"
+          ],
+          "expected_chunk_ids": [
+            "HZ-002-02",
+            "HZ-003-02"
+          ],
+          "expected_poi_ids": [
+            "HZ-002",
+            "HZ-003"
+          ],
+          "trusted_case": false
+        },
+        {
+          "eval_id": "HZ-RAG-017",
+          "question": "杭州免费的景点有哪些？",
+          "top1_chunk_hit": false,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "HZ-013-01",
+            "HZ-005-01",
+            "HZ-006-01",
+            "HZ-008-01",
+            "HZ-007-01"
+          ],
+          "expected_chunk_ids": [
+            "HZ-001-01",
+            "HZ-001-02",
+            "HZ-001-03",
+            "HZ-002-01",
+            "HZ-002-02",
+            "HZ-002-03",
+            "HZ-003-01",
+            "HZ-003-02",
+            "HZ-004-01",
+            "HZ-004-02",
+            "HZ-006-01",
+            "HZ-006-02",
+            "HZ-007-01",
+            "HZ-007-02",
+            "HZ-008-01",
+            "HZ-008-02",
+            "HZ-009-01",
+            "HZ-009-02",
+            "HZ-010-01",
+            "HZ-010-02",
+            "HZ-012-01",
+            "HZ-012-02",
+            "HZ-014-01",
+            "HZ-014-02",
+            "HZ-015-01",
+            "HZ-015-02"
+          ],
+          "expected_poi_ids": [
+            "HZ-001",
+            "HZ-002",
+            "HZ-003",
+            "HZ-004",
+            "HZ-006",
+            "HZ-007",
+            "HZ-008",
+            "HZ-009",
+            "HZ-010",
+            "HZ-012",
+            "HZ-014",
+            "HZ-015",
+            "HZ-005"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "HZ-RAG-018",
+          "question": "杭州有哪些适合拍照的地方？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "HZ-008-02",
+            "HZ-005-01",
+            "HZ-013-02",
+            "HZ-013-01",
+            "HZ-014-01"
+          ],
+          "expected_chunk_ids": [
+            "HZ-001-01",
+            "HZ-001-02",
+            "HZ-001-03",
+            "HZ-005-01",
+            "HZ-005-02",
+            "HZ-006-01",
+            "HZ-006-02",
+            "HZ-007-01",
+            "HZ-007-02",
+            "HZ-008-01",
+            "HZ-008-02",
+            "HZ-013-01",
+            "HZ-013-02",
+            "HZ-014-01",
+            "HZ-014-02"
+          ],
+          "expected_poi_ids": [
+            "HZ-001",
+            "HZ-005",
+            "HZ-006",
+            "HZ-007",
+            "HZ-008",
+            "HZ-013",
+            "HZ-014",
+            "HZ-003",
+            "HZ-004",
+            "HZ-012"
+          ],
+          "trusted_case": true
+        },
+        {
+          "eval_id": "HZ-RAG-019",
+          "question": "西湖今天音乐喷泉几点开始？会不会取消？",
+          "top1_chunk_hit": false,
+          "top5_chunk_hit": false,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "HZ-001-01",
+            "HZ-001-03",
+            "HZ-001-02",
+            "HZ-004-01",
+            "HZ-CROSS-01"
+          ],
+          "expected_chunk_ids": [
+            "HZ-001-04"
+          ],
+          "expected_poi_ids": [
+            "HZ-001",
+            "HZ-002",
+            "HZ-003"
+          ],
+          "trusted_case": false
+        },
+        {
+          "eval_id": "HZ-RAG-020",
+          "question": "德寿宫今天还有预约名额吗？",
+          "top1_chunk_hit": true,
+          "top5_chunk_hit": true,
+          "top5_poi_hit": true,
+          "city_isolated": true,
+          "returned_chunk_ids": [
+            "HZ-009-02",
+            "HZ-009-01",
+            "HZ-008-01",
+            "HZ-010-01",
+            "HZ-CROSS-01"
+          ],
+          "expected_chunk_ids": [
+            "HZ-009-01",
+            "HZ-009-02"
+          ],
+          "expected_poi_ids": [
+            "HZ-009"
+          ],
+          "trusted_case": true
+        }
+      ]
+    }
+  ]
+}

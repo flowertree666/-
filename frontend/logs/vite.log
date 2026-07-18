@@ -1,0 +1,38 @@
+
+> smart-travel-web@1.0.0 dev
+> vite --host 0.0.0.0
+
+
+  VITE v8.1.4  ready in 342 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://192.168.31.165:5173/
+09:26:08 [vite] (client) hmr update /src/App.vue
+09:26:48 [vite] (client) hmr update /src/App.vue
+09:27:01 [vite] (client) hmr update /src/style.css
+09:37:41 [vite] (client) hmr update /src/App.vue
+09:38:01 [vite] (client) hmr update /src/style.css
+10:24:02 [vite] (client) hmr update /src/App.vue
+11:23:06 [vite] (client) hmr update /src/App.vue
+13:29:09 [vite] (client) hmr update /src/style.css
+13:29:36 [vite] (client) hmr update /src/App.vue
+13:58:55 [vite] (client) hmr update /src/App.vue
+14:00:22 [vite] (client) hmr update /src/style.css
+14:01:15 [vite] (client) hmr update /src/components/RouteMap.vue
+14:33:33 [vite] (client) hmr update /src/style.css
+15:18:52 [vite] (client) hmr update /src/App.vue
+15:19:26 [vite] (client) hmr update /src/App.vue
+15:19:47 [vite] (client) hmr update /src/App.vue
+15:20:11 [vite] (client) hmr update /src/App.vue
+15:21:09 [vite] (client) hmr update /src/style.css
+15:31:23 [vite] (client) hmr update /src/App.vue
+15:53:10 [vite] (client) hmr update /src/App.vue
+15:53:24 [vite] (client) hmr update /src/style.css
+15:53:51 [vite] (client) hmr update /src/App.vue
+17:05:46 [vite] (client) hmr update /src/style.css
+17:05:46 [vite] (client) hmr update /src/App.vue
+17:09:28 [vite] (client) hmr update /src/App.vue
+17:17:04 [vite] (client) hmr update /src/style.css
+17:17:04 [vite] (client) hmr update /src/App.vue
+17:31:49 [vite] (client) hmr update /src/style.css
+17:31:49 [vite] (client) hmr update /src/App.vue

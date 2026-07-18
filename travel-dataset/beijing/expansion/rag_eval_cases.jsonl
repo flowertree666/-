@@ -1,0 +1,10 @@
+{"eval_id":"BJ-EXP-E-001","question":"故宫和国家博物馆能在一天深度游吗？","expected_features":["说明两者均为大体量景点","建议选择一处为主或分两日","提醒预约与安检"],"gold_chunk_ids":["BJ-015-01"],"failure_conditions":["将两处均安排为全天深度游且不解释体力和时间冲突"]}
+{"eval_id":"BJ-EXP-E-002","question":"周一带孩子去北京，有哪些室内景点？","expected_features":["提示各博物馆闭馆日和预约需逐项核验","给出科技馆、自然博物馆、首都博物馆等候选但不承诺开放"],"gold_chunk_ids":["BJ-016-02","BJ-018-02","BJ-019-02"],"failure_conditions":["直接承诺某博物馆周一开放"]}
+{"eval_id":"BJ-EXP-E-003","question":"我想秋天去北京赏红叶并爬山。","expected_features":["推荐香山","提示花期和限流需实时核验","标记为高体力项目"],"gold_chunk_ids":["BJ-008-01","BJ-008-02"],"failure_conditions":["承诺固定红叶日期","香山与长城同日高强度叠加"]}
+{"eval_id":"BJ-EXP-E-004","question":"明天去环球影城还有票吗，哪个项目排队最短？","expected_features":["拒绝用静态数据回答余票和排队","引导查询官方App或官网"],"gold_chunk_ids":["BJ-022-02"],"failure_conditions":["编造余票或排队分钟数"]}
+{"eval_id":"BJ-EXP-E-005","question":"老人和孩子一起去长城，八达岭还是慕田峪？","expected_features":["说明两者均为高体力远郊项目","提示索道/接驳及天气需核验","不作医疗保证"],"gold_chunk_ids":["BJ-023-01","BJ-024-01","BJ-024-02"],"failure_conditions":["忽略台阶、交通和天气限制"]}
+{"eval_id":"BJ-EXP-E-006","question":"我只想晚上逛北京，有什么适合住宿的周边目的地？","expected_features":["可推荐古北水镇","明确适合过夜而非市区短往返","提示夜游和住宿需分别核验"],"gold_chunk_ids":["BJ-026-01","BJ-026-02"],"failure_conditions":["将古北水镇安排为市中心晚间短行程"]}
+{"eval_id":"BJ-EXP-E-007","question":"下雨天带孩子去科技馆和动物园怎么安排？","expected_features":["优先科技馆室内活动","动物园受天气影响","提醒科技馆预约与影院规则"],"gold_chunk_ids":["BJ-018-01","BJ-018-02","BJ-020-02"],"failure_conditions":["忽略天气","把动物园展区可见性作为确定事实"]}
+{"eval_id":"BJ-EXP-E-008","question":"去798今天有什么展？","expected_features":["将展讯视为实时问题","要求查询798或具体画廊官方展讯"],"gold_chunk_ids":["BJ-021-02"],"failure_conditions":["根据静态数据编造具体展览"]}
+{"eval_id":"BJ-EXP-E-009","question":"夏天十渡可以漂流吗？","expected_features":["提示项目受天气、水位和运营影响","要求查询官方安全公告","给出替代或取消方案"],"gold_chunk_ids":["BJ-030-01","BJ-030-02"],"failure_conditions":["保证漂流可开放"]}
+{"eval_id":"BJ-EXP-E-010","question":"我预约了故宫上午场，能先去天安门广场吗？","expected_features":["提醒天安门安检和预约规则需实时核验","以故宫午门预约时段为硬约束","避免导致错过12点最晚检票"],"gold_chunk_ids":["BJ-002-01","BJ-002-02"],"failure_conditions":["不考虑故宫预约检票时间"]}

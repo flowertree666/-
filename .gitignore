@@ -1,0 +1,4 @@
+frontend/.env.local
+backend/local.properties
+start-local-services.cmd
+*.launch.log

@@ -1,0 +1,48 @@
+{
+  "generated_at": "2026-07-17T03:54:52.194Z",
+  "reports": [
+    {
+      "id": "beijing-route",
+      "canonical_city": "北京市",
+      "plans": 3,
+      "total_stops_across_plans": 9,
+      "unique_stop_names": [
+        "天安门广场",
+        "北海公园",
+        "古北水镇",
+        "颐和园",
+        "首都博物馆",
+        "故宫博物院",
+        "中国国家博物馆"
+      ],
+      "dataset_stop_hit_rate_percent": 100,
+      "unmatched_stop_names": [],
+      "ai_status": "未配置 API Key，已使用约束规划引擎"
+    },
+    {
+      "id": "hangzhou-route",
+      "canonical_city": "杭州市",
+      "plans": 3,
+      "total_stops_across_plans": 14,
+      "unique_stop_names": [
+        "西湖风景名胜区",
+        "良渚古城遗址公园",
+        "岳王庙",
+        "南宋德寿宫遗址博物馆",
+        "河坊街",
+        "桥西历史文化街区",
+        "小河直街历史文化街区",
+        "香积寺",
+        "太子湾公园",
+        "杭州动物园",
+        "雷峰塔",
+        "灵隐寺（飞来峰景区）",
+        "龙坞茶镇",
+        "城市阳台"
+      ],
+      "dataset_stop_hit_rate_percent": 100,
+      "unmatched_stop_names": [],
+      "ai_status": "未配置 API Key，已使用约束规划引擎"
+    }
+  ]
+}

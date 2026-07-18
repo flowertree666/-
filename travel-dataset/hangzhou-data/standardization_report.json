@@ -1,0 +1,46 @@
+{
+  "dataset": "hangzhou",
+  "generated_at": "2026-07-17T04:17:27.945Z",
+  "counts": {
+    "pois": 15,
+    "chunks": 34,
+    "sources": 21
+  },
+  "duplicate_poi_ids": 0,
+  "duplicate_chunk_ids": 0,
+  "missing_coordinates": [],
+  "pois_without_chunks": [],
+  "minimum_chunks_per_poi": 2,
+  "unresolved_source_ids": [],
+  "unverified_source_ids": [
+    "HZ-S-20260716-002",
+    "HZ-S-20260716-005",
+    "HZ-S-20260716-017"
+  ],
+  "unverified_chunk_ids": [
+    "HZ-001-04"
+  ],
+  "sources_without_specific_path": [
+    "HZ-S-20260716-001",
+    "HZ-S-20260716-004",
+    "HZ-S-20260716-006",
+    "HZ-S-20260716-007",
+    "HZ-S-20260716-008",
+    "HZ-S-20260716-009",
+    "HZ-S-20260716-010",
+    "HZ-S-20260716-011",
+    "HZ-S-20260716-012",
+    "HZ-S-20260716-013",
+    "HZ-S-20260716-014",
+    "HZ-S-20260716-015",
+    "HZ-S-20260716-016",
+    "HZ-S-20260716-018",
+    "HZ-S-20260716-019",
+    "HZ-S-20260716-020",
+    "HZ-S-20260717-001"
+  ],
+  "placeholder_or_unverified_source_urls": [
+    "HZ-S-20260716-002",
+    "HZ-S-20260716-005"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "dataset_name": "北京市旅游 RAG 数据集",
+  "dataset_version": "3.0.0-standardized",
+  "language": "zh-CN",
+  "poi_count": 30,
+  "chunk_count": 101,
+  "source_count": 124,
+  "vector_source_file": "knowledge_chunks.jsonl",
+  "metadata_source_files": [
+    "pois.jsonl",
+    "sources.jsonl",
+    "claim_evidence.jsonl"
+  ],
+  "required_metadata": [
+    "chunk_id",
+    "city",
+    "poi_id",
+    "fact_type",
+    "source_ids",
+    "source_url",
+    "collected_at",
+    "valid_until"
+  ],
+  "retrieval_policy": {
+    "mode": "vector_plus_poi_alias_rerank",
+    "filters": [
+      "city",
+      "poi_id",
+      "valid_until"
+    ],
+    "exclude_fact_types": [
+      "unverified_claim"
+    ],
+    "realtime_answer_policy": "Static chunks cannot confirm current availability, same-day opening, queues or weather-sensitive operations."
+  }
+}

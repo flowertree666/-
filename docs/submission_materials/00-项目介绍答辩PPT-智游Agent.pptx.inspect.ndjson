@@ -1,0 +1,263 @@
+{"kind":"deck","id":"pr/2merk8","name":"Deck"}
+{"kind":"layout","layoutId":"25e520e6-491b-4596-9cc4-29ef9b60fc26","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"3b85a34f-f3c6-4703-9997-ee78abdd2bdd","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/79ulby","slide":1,"title":"COMPETITION DEFENSE","textShapes":6}
+{"kind":"textbox","id":"sh/e1wbex0r","slide":1,"name":"kicker","text":"COMPETITION DEFENSE","textPreview":"COMPETITION DEFENSE","textChars":19,"textLines":1,"bbox":[42,36,460,24]}
+{"kind":"textbox","id":"sh/1o7u9czi","slide":1,"name":"cover-title","text":"智游 Agent","textPreview":"智游 Agent","textChars":8,"textLines":1,"bbox":[42,184,990,105]}
+{"kind":"textbox","id":"sh/gnedg7ix","slide":1,"name":"cover-sub","text":"让旅行规划有依据、守约束、可执行","textPreview":"让旅行规划有依据、守约束、可执行","textChars":16,"textLines":1,"bbox":[42,310,940,78]}
+{"kind":"textbox","id":"sh/ry5c32hg","slide":1,"name":"cover-meta","text":"基于 RAG、DeepSeek 与高德地图的智能旅游助手","textPreview":"基于 RAG、DeepSeek 与高德地图的智能旅游助手","textChars":28,"textLines":1,"bbox":[42,510,790,46]}
+{"kind":"textbox","id":"sh/6xwbax0v","slide":1,"name":"cover-team","text":"程鹏 · 马骁泽 · 柴正宇 · 梅佳俊 · 杨宇韬","textPreview":"程鹏 · 马骁泽 · 柴正宇 · 梅佳俊 · 杨宇韬","textChars":26,"textLines":1,"bbox":[42,575,880,36]}
+{"kind":"shape","id":"sh/t0nu5sz6","slide":1,"name":"accent","bbox":[1108,42,130,10]}
+{"kind":"textbox","id":"sh/szetc7il","slide":1,"name":"cover-no","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[1185,660,54,20]}
+{"kind":"notes","id":"nt/79ulby","slide":1,"text":""}
+{"kind":"slide","id":"sl/0lwriv","slide":2,"title":"自由行真正难的不是找景点，而是把信息变成可执行路线","textShapes":10}
+{"kind":"textbox","id":"sh/83udgf61","slide":2,"name":"title-2","text":"自由行真正难的不是找景点，而是把信息变成可执行路线","textPreview":"自由行真正难的不是找景点，而是把信息变成可执行路线","textChars":25,"textLines":1,"bbox":[42,34,1150,76]}
+{"kind":"textbox","id":"sh/72lcnupg","slide":2,"name":"no-2","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1185,660,54,20]}
+{"kind":"textbox","id":"sh/61cvepov","slide":2,"name":"lead","text":"用户需要同时处理信息时效、空间距离、时间窗口、体力与预算；任何一项缺失，路线都可能“看起来合理、实际走不通”。","textPreview":"用户需要同时处理信息时效、空间距离、时间窗口、体力与预算；任何一项缺失，路线都可能“看起来合理、实际走不通”。","textChars":55,"textLines":1,"bbox":[42,135,1170,76]}
+{"kind":"shape","id":"sh/l03ulk7a","slide":2,"name":"problem-0","bbox":[42,310,374,272]}
+{"kind":"textbox","id":"sh/kzudcf6p","slide":2,"name":"problem-head-0","text":"信息分散","textPreview":"信息分散","textChars":4,"textLines":1,"bbox":[70,345,318,45]}
+{"kind":"textbox","id":"sh/jylcjapk","slide":2,"name":"problem-body-0","text":"官网、地图、攻略与票务平台反复切换，开放和预约规则难追溯。","textPreview":"官网、地图、攻略与票务平台反复切换，开放和预约规则难追溯。","textChars":29,"textLines":1,"bbox":[70,414,318,124]}
+{"kind":"shape","id":"sh/yxsva5oz","slide":2,"name":"problem-1","bbox":[452,310,374,272]}
+{"kind":"textbox","id":"sh/xwjuh07e","slide":2,"name":"problem-head-1","text":"路线模板化","textPreview":"路线模板化","textChars":5,"textLines":1,"bbox":[480,345,318,45]}
+{"kind":"textbox","id":"sh/wbad8v6t","slide":2,"name":"problem-body-1","text":"热门景点被机械拼接，跨区折返、体力过载和时间写死。","textPreview":"热门景点被机械拼接，跨区折返、体力过载和时间写死。","textChars":25,"textLines":1,"bbox":[480,414,318,124]}
+{"kind":"shape","id":"sh/ahgfmlsv","slide":2,"name":"problem-2","bbox":[862,310,374,272]}
+{"kind":"textbox","id":"sh/bipwvqt0","slide":2,"name":"problem-head-2","text":"个性化失真","textPreview":"个性化失真","textChars":5,"textLines":1,"bbox":[890,345,318,45]}
+{"kind":"textbox","id":"sh/wjyxoval","slide":2,"name":"problem-body-2","text":"用户说“第一天去八达岭”，模型却只在建议中提到，没有真正安排。","textPreview":"用户说“第一天去八达岭”，模型却只在建议中提到，没有真正安排。","textChars":31,"textLines":1,"bbox":[890,414,318,124]}
+{"kind":"textbox","id":"sh/xk7ex0b6","slide":2,"name":"footer","text":"智游 Agent · 基于通用智能体的智能旅游助手","textPreview":"智游 Agent · 基于通用智能体的智能旅游助手","textChars":25,"textLines":1,"bbox":[42,664,640,18]}
+{"kind":"notes","id":"nt/0lwriv","slide":2,"text":""}
+{"kind":"slide","id":"sl/27crpx","slide":3,"title":"一个输入入口，统一承接目的地、预算、偏好与特别期待","textShapes":7}
+{"kind":"textbox","id":"sh/sji54ne1","slide":3,"name":"title-3","text":"一个输入入口，统一承接目的地、预算、偏好与特别期待","textPreview":"一个输入入口，统一承接目的地、预算、偏好与特别期待","textChars":25,"textLines":1,"bbox":[42,34,1150,76]}
+{"kind":"textbox","id":"sh/ri94vixg","slide":3,"name":"no-3","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1185,660,54,20]}
+{"kind":"textbox","id":"sh/6h0n2xgv","slide":3,"name":"input-big","text":"用户只需要描述怎么旅行","textPreview":"用户只需要描述怎么旅行","textChars":11,"textLines":1,"bbox":[42,190,390,96]}
+{"kind":"shape","id":"sh/18b61cfi","slide":3,"name":"dot-330","bbox":[42,339,8,8]}
+{"kind":"textbox","id":"sh/g72587ed","slide":3,"name":"bullet-330","text":"结构化条件：城市、天数、日期、预算、偏好","textPreview":"结构化条件：城市、天数、日期、预算、偏好","textChars":20,"textLines":1,"bbox":[64,330,438,54]}
+{"kind":"shape","id":"sh/f6toz2xs","slide":3,"name":"dot-402","bbox":[42,411,8,8]}
+{"kind":"textbox","id":"sh/e5kn6xw7","slide":3,"name":"bullet-402","text":"自然语言条件：指定景点、指定日期、老人儿童、日出与体力","textPreview":"自然语言条件：指定景点、指定日期、老人儿童、日出与体力","textChars":27,"textLines":1,"bbox":[64,402,458,54]}
+{"kind":"shape","id":"sh/hcrmp8fe","slide":3,"name":"dot-500","bbox":[42,509,8,8]}
+{"kind":"textbox","id":"sh/wby5w3yt","slide":3,"name":"bullet-500","text":"无效目的地直接报错，不进入虚构规划","textPreview":"无效目的地直接报错，不进入虚构规划","textChars":17,"textLines":1,"bbox":[64,500,438,54]}
+{"kind":"shape","id":"sh/qd8f69of","slide":3,"name":"input-ui-back","bbox":[558,118,684,504]}
+{"kind":"textbox","id":"sh/cfqx8j65","slide":3,"name":"footer","text":"智游 Agent · 基于通用智能体的智能旅游助手","textPreview":"智游 Agent · 基于通用智能体的智能旅游助手","textChars":25,"textLines":1,"bbox":[42,664,640,18]}
+{"kind":"image","id":"im/sju94vu5","slide":3,"name":"","geometry":"roundRect","alt":"input-ui","bbox":[560,120,680,500]}
+{"kind":"notes","id":"nt/27crpx","slide":3,"text":""}
+{"kind":"slide","id":"sl/3emgib","slide":4,"title":"路线生成遵循“检索—约束—地图—表达”的可解释链路","textShapes":15}
+{"kind":"textbox","id":"sh/za9o7at4","slide":4,"name":"title-4","text":"路线生成遵循“检索—约束—地图—表达”的可解释链路","textPreview":"路线生成遵循“检索—约束—地图—表达”的可解释链路","textChars":25,"textLines":1,"bbox":[42,34,1150,76]}
+{"kind":"textbox","id":"sh/kbipgfap","slide":4,"name":"no-4","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1185,660,54,20]}
+{"kind":"shape","id":"sh/lcrq9kba","slide":4,"name":"timeline-line","bbox":[70,320,1120,2]}
+{"kind":"shape","id":"sh/mdk7ipsv","slide":4,"name":"step-dot-0","bbox":[70,309,24,24]}
+{"kind":"textbox","id":"sh/7et8but0","slide":4,"name":"step-no-0","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[70,255,70,28]}
+{"kind":"textbox","id":"sh/8z2pkfal","slide":4,"name":"step-head-0","text":"知识检索","textPreview":"知识检索","textChars":4,"textLines":1,"bbox":[70,365,240,42]}
+{"kind":"textbox","id":"sh/90bqdkb6","slide":4,"name":"step-body-0","text":"按城市与日期检索 RAG，过滤过期或不可信片段。","textPreview":"按城市与日期检索 RAG，过滤过期或不可信片段。","textChars":24,"textLines":1,"bbox":[70,425,238,115]}
+{"kind":"shape","id":"sh/2hg76lcb","slide":4,"name":"step-dot-1","bbox":[360,309,24,24]}
+{"kind":"textbox","id":"sh/nipozqtw","slide":4,"name":"step-no-1","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[360,255,70,28]}
+{"kind":"textbox","id":"sh/z69k7etc","slide":4,"name":"step-head-1","text":"硬约束规划","textPreview":"硬约束规划","textChars":5,"textLines":1,"bbox":[360,365,240,42]}
+{"kind":"textbox","id":"sh/y5gje9cr","slide":4,"name":"step-body-1","text":"落实必去点、指定天数、时间、体力、距离与预算。","textPreview":"落实必去点、指定天数、时间、体力、距离与预算。","textChars":23,"textLines":1,"bbox":[360,425,238,115]}
+{"kind":"shape","id":"sh/l8r29obi","slide":4,"name":"step-dot-2","bbox":[650,309,24,24]}
+{"kind":"textbox","id":"sh/k7i1gjux","slide":4,"name":"step-no-2","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[650,255,70,28]}
+{"kind":"textbox","id":"sh/b2pk3etg","slide":4,"name":"step-head-2","text":"地图补全","textPreview":"地图补全","textChars":4,"textLines":1,"bbox":[650,365,240,42]}
+{"kind":"textbox","id":"sh/a1gja9cv","slide":4,"name":"step-body-2","text":"调用高德路线、餐饮、住宿和交通方式。","textPreview":"调用高德路线、餐饮、住宿和交通方式。","textChars":18,"textLines":1,"bbox":[650,425,238,115]}
+{"kind":"shape","id":"sh/x47254b6","slide":4,"name":"step-dot-3","bbox":[940,309,24,24]}
+{"kind":"textbox","id":"sh/c3y1czul","slide":4,"name":"step-no-3","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[940,255,70,28]}
+{"kind":"textbox","id":"sh/nep0zut4","slide":4,"name":"step-head-3","text":"个性化生成","textPreview":"个性化生成","textChars":5,"textLines":1,"bbox":[940,365,240,42]}
+{"kind":"textbox","id":"sh/2dwj6pcj","slide":4,"name":"step-body-3","text":"DeepSeek 基于已校验草案生成每日主题与建议。","textPreview":"DeepSeek 基于已校验草案生成每日主题与建议。","textChars":26,"textLines":1,"bbox":[940,425,238,115]}
+{"kind":"textbox","id":"sh/q9w3ipwr","slide":4,"name":"footer","text":"智游 Agent · 基于通用智能体的智能旅游助手","textPreview":"智游 Agent · 基于通用智能体的智能旅游助手","textChars":25,"textLines":1,"bbox":[42,664,640,18]}
+{"kind":"notes","id":"nt/3emgib","slide":4,"text":""}
+{"kind":"slide","id":"sl/pvug7i","slide":5,"title":"三地数据集把景点实体、知识证据和来源治理统一起来","textShapes":13}
+{"kind":"textbox","id":"sh/4z69obih","slide":5,"name":"title-5","text":"三地数据集把景点实体、知识证据和来源治理统一起来","textPreview":"三地数据集把景点实体、知识证据和来源治理统一起来","textChars":24,"textLines":1,"bbox":[42,34,1150,76]}
+{"kind":"textbox","id":"sh/3yx8f6hw","slide":5,"name":"no-5","text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1185,660,54,20]}
+{"kind":"textbox","id":"sh/2xorm10b","slide":5,"name":"stats-lead","text":"RAG 不只用于写介绍：标准化 POI 同步进入路线数据库，因此“检索到的知识”和“参与排程的景点”使用同一事实底座。","textPreview":"RAG 不只用于写介绍：标准化 POI 同步进入路线数据库，因此“检索到的知识”和“参与排程的景点”使用同一事实底座。","textChars":59,"textLines":1,"bbox":[42,125,1160,90]}
+{"kind":"shape","id":"sh/d4fqlgze","slide":5,"name":"stat-bg-0","bbox":[42,300,374,300]}
+{"kind":"textbox","id":"sh/c369svit","slide":5,"name":"stat-num-0","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[68,340,320,100]}
+{"kind":"textbox","id":"sh/r2x8jqh8","slide":5,"name":"stat-title-0","text":"覆盖城市","textPreview":"覆盖城市","textChars":4,"textLines":1,"bbox":[68,465,320,40]}
+{"kind":"textbox","id":"sh/q1orql0n","slide":5,"name":"stat-body-0","text":"南京 · 北京 · 杭州","textPreview":"南京 · 北京 · 杭州","textChars":12,"textLines":1,"bbox":[68,530,320,46]}
+{"kind":"shape","id":"sh/1szap0za","slide":5,"name":"stat-bg-1","bbox":[453,300,374,300]}
+{"kind":"textbox","id":"sh/0rq9wvip","slide":5,"name":"stat-num-1","text":"75","textPreview":"75","textChars":2,"textLines":1,"bbox":[479,340,320,100]}
+{"kind":"textbox","id":"sh/it8bydsr","slide":5,"name":"stat-title-1","text":"标准化 POI","textPreview":"标准化 POI","textChars":7,"textLines":1,"bbox":[479,465,320,40]}
+{"kind":"textbox","id":"sh/3uhs7i9c","slide":5,"name":"stat-body-1","text":"南京 30 / 北京 30 / 杭州 15","textPreview":"南京 30 / 北京 30 / 杭州 15","textChars":21,"textLines":1,"bbox":[479,530,320,46]}
+{"kind":"shape","id":"sh/4vqt0nax","slide":5,"name":"stat-bg-2","bbox":[864,300,374,300]}
+{"kind":"textbox","id":"sh/pwza9sri","slide":5,"name":"stat-num-2","text":"298","textPreview":"298","textChars":3,"textLines":1,"bbox":[890,340,320,100]}
+{"kind":"textbox","id":"sh/qx8b2xsn","slide":5,"name":"stat-title-2","text":"可信片段","textPreview":"可信片段","textChars":4,"textLines":1,"bbox":[890,465,320,40]}
+{"kind":"textbox","id":"sh/ryhsb298","slide":5,"name":"stat-body-2","text":"规则、官方事实与数据治理说明","textPreview":"规则、官方事实与数据治理说明","textChars":14,"textLines":1,"bbox":[890,530,320,46]}
+{"kind":"textbox","id":"sh/cjqt47at","slide":5,"name":"footer","text":"智游 Agent · 基于通用智能体的智能旅游助手","textPreview":"智游 Agent · 基于通用智能体的智能旅游助手","textChars":25,"textLines":1,"bbox":[42,664,640,18]}
+{"kind":"notes","id":"nt/pvug7i","slide":5,"text":""}
+{"kind":"slide","id":"sl/zt6gbt","slide":6,"title":"每条规划依据都能回到具体片段、来源和有效期","textShapes":7}
+{"kind":"textbox","id":"sh/zmp0r210","slide":6,"name":"title-6","text":"每条规划依据都能回到具体片段、来源和有效期","textPreview":"每条规划依据都能回到具体片段、来源和有效期","textChars":21,"textLines":1,"bbox":[42,34,1150,76]}
+{"kind":"textbox","id":"sh/kny10nil","slide":6,"name":"no-6","text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1185,660,54,20]}
+{"kind":"textbox","id":"sh/lo7itsj6","slide":6,"name":"rag-copy","text":"北京示例检索 4 条知识片段，其中八达岭长城规则位于首位。前端保留事实类型、POI 编号与来源复核入口。","textPreview":"北京示例检索 4 条知识片段，其中八达岭长城规则位于首位。前端保留事实类型、POI 编号与来源复核入口。","textChars":52,"textLines":1,"bbox":[42,170,380,150]}
+{"kind":"shape","id":"sh/axwzud0j","slide":6,"name":"dot-365","bbox":[42,374,8,8]}
+{"kind":"textbox","id":"sh/by50ni14","slide":6,"name":"bullet-365","text":"城市过滤，避免跨城知识污染","textPreview":"城市过滤，避免跨城知识污染","textChars":13,"textLines":1,"bbox":[64,365,388,54]}
+{"kind":"shape","id":"sh/cje1wnip","slide":6,"name":"dot-430","bbox":[42,439,8,8]}
+{"kind":"textbox","id":"sh/xk7ipsja","slide":6,"name":"bullet-430","text":"动态公告设置短有效期，过期后降权或排除","textPreview":"动态公告设置短有效期，过期后降权或排除","textChars":19,"textLines":1,"bbox":[64,430,408,54]}
+{"kind":"shape","id":"sh/ut0j6h0n","slide":6,"name":"dot-505","bbox":[42,514,8,8]}
+{"kind":"textbox","id":"sh/vu90zm18","slide":6,"name":"bullet-505","text":"不可信与占位片段不进入有效检索","textPreview":"不可信与占位片段不进入有效检索","textChars":15,"textLines":1,"bbox":[64,505,388,54]}
+{"kind":"shape","id":"sh/vux8vmtk","slide":6,"name":"rag-evidence-ui-back","bbox":[483,123,759,504]}
+{"kind":"textbox","id":"sh/hwfqxwbq","slide":6,"name":"footer","text":"智游 Agent · 基于通用智能体的智能旅游助手","textPreview":"智游 Agent · 基于通用智能体的智能旅游助手","textChars":25,"textLines":1,"bbox":[42,664,640,18]}
+{"kind":"image","id":"im/tovep872","slide":6,"name":"","geometry":"roundRect","alt":"rag-evidence-ui","bbox":[485,125,755,500]}
+{"kind":"notes","id":"nt/zt6gbt","slide":6,"text":""}
+{"kind":"slide","id":"sl/bifz30","slide":7,"title":"模型负责理解，约束引擎负责兑现","textShapes":12}
+{"kind":"textbox","id":"sh/gbyhk7mp","slide":7,"name":"title-7","text":"模型负责理解，约束引擎负责兑现","textPreview":"模型负责理解，约束引擎负责兑现","textChars":15,"textLines":1,"bbox":[42,34,1150,76]}
+{"kind":"textbox","id":"sh/fap0r25k","slide":7,"name":"no-7","text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1185,660,54,20]}
+{"kind":"textbox","id":"sh/u9gzix4z","slide":7,"name":"constraint-lead","text":"“第一天去八达岭长城”先被抽取为结构化约束，再由本地 POI 名称与别名二次确认；即使模型不可用，也不会丢失明确地点。","textPreview":"“第一天去八达岭长城”先被抽取为结构化约束，再由本地 POI 名称与别名二次确认；即使模型不可用，也不会丢失明确地点。","textChars":59,"textLines":1,"bbox":[42,135,1160,86]}
+{"kind":"shape","id":"sh/t87ipsne","slide":7,"name":"constraint-bg-0","bbox":[42,275,580,145]}
+{"kind":"textbox","id":"sh/s7yhgnmt","slide":7,"name":"constraint-head-0","text":"识别","textPreview":"识别","textChars":2,"textLines":1,"bbox":[66,295,120,40]}
+{"kind":"textbox","id":"sh/76p0ni58","slide":7,"name":"constraint-body-0","text":"地点 / 第几天 / 全天 / 登山 / 日出 / 起床时间","textPreview":"地点 / 第几天 / 全天 / 登山 / 日出 / 起床时间","textChars":30,"textLines":1,"bbox":[192,295,395,90]}
+{"kind":"shape","id":"sh/65gzed4n","slide":7,"name":"constraint-bg-1","bbox":[657,275,580,145]}
+{"kind":"textbox","id":"sh/d4bi1wni","slide":7,"name":"constraint-head-1","text":"校验","textPreview":"校验","textChars":2,"textLines":1,"bbox":[681,295,120,40]}
+{"kind":"textbox","id":"sh/c3i1srmx","slide":7,"name":"constraint-body-1","text":"城市存在、POI 命中、日期不超界、需求是否冲突","textPreview":"城市存在、POI 命中、日期不超界、需求是否冲突","textChars":24,"textLines":1,"bbox":[807,295,395,90]}
+{"kind":"shape","id":"sh/ap4729cz","slide":7,"name":"constraint-bg-2","bbox":[42,455,580,145]}
+{"kind":"textbox","id":"sh/bqxovedk","slide":7,"name":"constraint-head-2","text":"排程","textPreview":"排程","textChars":2,"textLines":1,"bbox":[66,475,120,40]}
+{"kind":"textbox","id":"sh/cr6p4ju5","slide":7,"name":"constraint-body-2","text":"每日锚点、同片区选点、时间推进、体力恢复","textPreview":"每日锚点、同片区选点、时间推进、体力恢复","textChars":20,"textLines":1,"bbox":[192,475,395,90]}
+{"kind":"shape","id":"sh/xcfqxovq","slide":7,"name":"constraint-bg-3","bbox":[657,455,580,145]}
+{"kind":"textbox","id":"sh/2l47y9c3","slide":7,"name":"constraint-head-3","text":"复核","textPreview":"复核","textChars":2,"textLines":1,"bbox":[681,475,120,40]}
+{"kind":"textbox","id":"sh/nmdoredo","slide":7,"name":"constraint-body-3","text":"路线、预算、证据、开放预约提示与异常降级","textPreview":"路线、预算、证据、开放预约提示与异常降级","textChars":20,"textLines":1,"bbox":[807,475,395,90]}
+{"kind":"textbox","id":"sh/onmp0jut","slide":7,"name":"footer","text":"智游 Agent · 基于通用智能体的智能旅游助手","textPreview":"智游 Agent · 基于通用智能体的智能旅游助手","textChars":25,"textLines":1,"bbox":[42,664,640,18]}
+{"kind":"notes","id":"nt/bifz30","slide":7,"text":""}
+{"kind":"slide","id":"sl/jj1u4r","slide":8,"title":"同一次需求生成经济、标准、舒适三套差异化方案","textShapes":7}
+{"kind":"textbox","id":"sh/qho3upgf","slide":8,"name":"title-8","text":"同一次需求生成经济、标准、舒适三套差异化方案","textPreview":"同一次需求生成经济、标准、舒适三套差异化方案","textChars":22,"textLines":1,"bbox":[42,34,1150,76]}
+{"kind":"textbox","id":"sh/dkz2p4f6","slide":8,"name":"no-8","text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1185,660,54,20]}
+{"kind":"textbox","id":"sh/sjqlwzyl","slide":8,"name":"plan-copy","text":"预算不是简单乘系数，而是影响住宿、餐饮、交通、景点组合和每日节奏。用户可以比较方案后继续查看按日路线。","textPreview":"预算不是简单乘系数，而是影响住宿、餐饮、交通、景点组合和每日节奏。用户可以比较方案后继续查看按日路线。","textChars":51,"textLines":1,"bbox":[42,170,390,165]}
+{"kind":"shape","id":"sh/3exkjux4","slide":8,"name":"dot-395","bbox":[42,404,8,8]}
+{"kind":"textbox","id":"sh/ido3qpgj","slide":8,"name":"bullet-395","text":"目标预算：70% / 100% / 130%","textPreview":"目标预算：70% / 100% / 130%","textChars":22,"textLines":1,"bbox":[64,395,368,54]}
+{"kind":"shape","id":"sh/5gf2lkfu","slide":8,"name":"dot-455","bbox":[42,464,8,8]}
+{"kind":"textbox","id":"sh/4f6lszyp","slide":8,"name":"bullet-455","text":"每档允许约 10% 的合理浮动","textPreview":"每档允许约 10% 的合理浮动","textChars":15,"textLines":1,"bbox":[64,455,368,54]}
+{"kind":"shape","id":"sh/vqdkfaxs","slide":8,"name":"dot-515","bbox":[42,524,8,8]}
+{"kind":"textbox","id":"sh/up4jm5g7","slide":8,"name":"bullet-515","text":"价格缺失时标注估算依据，不伪造实时售价","textPreview":"价格缺失时标注估算依据，不伪造实时售价","textChars":19,"textLines":1,"bbox":[64,515,398,54]}
+{"kind":"shape","id":"sh/orapwval","slide":8,"name":"result-ui-back","bbox":[478,118,764,509]}
+{"kind":"textbox","id":"sh/mps7u5sv","slide":8,"name":"footer","text":"智游 Agent · 基于通用智能体的智能旅游助手","textPreview":"智游 Agent · 基于通用智能体的智能旅游助手","textChars":25,"textLines":1,"bbox":[42,664,640,18]}
+{"kind":"image","id":"im/q1ofid4n","slide":8,"name":"","geometry":"roundRect","alt":"result-ui","bbox":[480,120,760,505]}
+{"kind":"notes","id":"nt/jj1u4r","slide":8,"text":""}
+{"kind":"slide","id":"sl/os570b","slide":9,"title":"地图按天拆分，路线与时间线保持同一天上下文","textShapes":7}
+{"kind":"textbox","id":"sh/e1ojmlgf","slide":9,"name":"title-9","text":"地图按天拆分，路线与时间线保持同一天上下文","textPreview":"地图按天拆分，路线与时间线保持同一天上下文","textChars":21,"textLines":1,"bbox":[42,34,1150,76]}
+{"kind":"textbox","id":"sh/1of2h0zq","slide":9,"name":"no-9","text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1185,660,54,20]}
+{"kind":"shape","id":"sh/0n61ovy5","slide":9,"name":"map-ui-back","bbox":[40,128,804,474]}
+{"kind":"textbox","id":"sh/mpojq5gb","slide":9,"name":"map-head","text":"高德地图不是静态图片","textPreview":"高德地图不是静态图片","textChars":10,"textLines":1,"bbox":[885,170,330,80]}
+{"kind":"shape","id":"sh/9sz2lkz2","slide":9,"name":"dot-300","bbox":[885,309,8,8]}
+{"kind":"textbox","id":"sh/orq1sfyh","slide":9,"name":"bullet-300","text":"切换第 1 / 2 / 3 天，只重绘当日景点和道路","textPreview":"切换第 1 / 2 / 3 天，只重绘当日景点和道路","textChars":26,"textLines":1,"bbox":[907,300,308,54]}
+{"kind":"shape","id":"sh/3ud076hs","slide":9,"name":"dot-390","bbox":[885,399,8,8]}
+{"kind":"textbox","id":"sh/2t4je1g7","slide":9,"name":"bullet-390","text":"优先使用步行、公交/地铁或驾车真实路线","textPreview":"优先使用步行、公交/地铁或驾车真实路线","textChars":19,"textLines":1,"bbox":[907,390,308,54]}
+{"kind":"shape","id":"sh/kri9wrmx","slide":9,"name":"dot-480","bbox":[885,489,8,8]}
+{"kind":"textbox","id":"sh/lsra5cni","slide":9,"name":"bullet-480","text":"调用失败时显示虚线或降级状态，不冒充真实路径","textPreview":"调用失败时显示虚线或降级状态，不冒充真实路径","textChars":22,"textLines":1,"bbox":[907,480,308,54]}
+{"kind":"textbox","id":"sh/y50ruh47","slide":9,"name":"footer","text":"智游 Agent · 基于通用智能体的智能旅游助手","textPreview":"智游 Agent · 基于通用智能体的智能旅游助手","textChars":25,"textLines":1,"bbox":[42,664,640,18]}
+{"kind":"image","id":"im/ax8zyh0v","slide":9,"name":"","geometry":"roundRect","alt":"map-ui","bbox":[42,130,800,470]}
+{"kind":"notes","id":"nt/os570b","slide":9,"text":""}
+{"kind":"slide","id":"sl/wv6y20","slide":10,"title":"第一天指定八达岭长城，最终时间线明确兑现","textShapes":7}
+{"kind":"textbox","id":"sh/gvyhg329","slide":10,"name":"title-10","text":"第一天指定八达岭长城，最终时间线明确兑现","textPreview":"第一天指定八达岭长城，最终时间线明确兑现","textChars":20,"textLines":1,"bbox":[42,34,1150,76]}
+{"kind":"textbox","id":"sh/vup07ylo","slide":10,"name":"no-10","text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1185,660,54,20]}
+{"kind":"textbox","id":"sh/utwzetk3","slide":10,"name":"timeline-copy","text":"页面从 07:00 起床开始，连续安排早餐、前往景点、休息、午餐与八达岭游览；费用估算和老人出行提示位于同一日上下文。","textPreview":"页面从 07:00 起床开始，连续安排早餐、前往景点、休息、午餐与八达岭游览；费用估算和老人出行提示位于同一日上下文。","textChars":59,"textLines":1,"bbox":[42,150,390,185]}
+{"kind":"shape","id":"sh/507id83q","slide":10,"name":"dot-400","bbox":[42,409,8,8]}
+{"kind":"textbox","id":"sh/4zy1kn2l","slide":10,"name":"bullet-400","text":"时间点由行程动态推进，不再写死","textPreview":"时间点由行程动态推进，不再写死","textChars":15,"textLines":1,"bbox":[64,400,368,54]}
+{"kind":"shape","id":"sh/3yp0bil0","slide":10,"name":"dot-465","bbox":[42,474,8,8]}
+{"kind":"textbox","id":"sh/ixgzidkf","slide":10,"name":"bullet-465","text":"餐饮、住宿、交通与景点共同占用时间预算","textPreview":"餐饮、住宿、交通与景点共同占用时间预算","textChars":19,"textLines":1,"bbox":[64,465,398,54]}
+{"kind":"shape","id":"sh/l4ni1o3m","slide":10,"name":"dot-535","bbox":[42,544,8,8]}
+{"kind":"textbox","id":"sh/k3eh8j21","slide":10,"name":"bullet-535","text":"高强度活动后自动降低次日密度","textPreview":"高强度活动后自动降低次日密度","textChars":14,"textLines":1,"bbox":[64,535,368,54]}
+{"kind":"shape","id":"sh/ipwvu5wb","slide":10,"name":"timeline-ui-back","bbox":[478,113,764,514]}
+{"kind":"textbox","id":"sh/4redwfeh","slide":10,"name":"footer","text":"智游 Agent · 基于通用智能体的智能旅游助手","textPreview":"智游 Agent · 基于通用智能体的智能旅游助手","textChars":25,"textLines":1,"bbox":[42,664,640,18]}
+{"kind":"image","id":"im/4ju9kjmt","slide":10,"name":"","geometry":"roundRect","alt":"timeline-ui","bbox":[480,115,760,510]}
+{"kind":"notes","id":"nt/wv6y20","slide":10,"text":""}
+{"kind":"slide","id":"sl/aig36m","slide":11,"title":"五层架构让模型、地图、知识库和业务规则彼此解耦","textShapes":14}
+{"kind":"textbox","id":"sh/54vq5wja","slide":11,"name":"title-11","text":"五层架构让模型、地图、知识库和业务规则彼此解耦","textPreview":"五层架构让模型、地图、知识库和业务规则彼此解耦","textChars":23,"textLines":1,"bbox":[42,34,1150,76]}
+{"kind":"textbox","id":"sh/i147ah0j","slide":11,"name":"no-11","text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1185,660,54,20]}
+{"kind":"shape","id":"sh/j2d83m14","slide":11,"name":"arch-link-0","bbox":[245,345,55,3]}
+{"kind":"shape","id":"sh/s7m9gbi1","slide":11,"name":"arch-link-1","bbox":[480,345,55,3]}
+{"kind":"shape","id":"sh/t8fq9wj6","slide":11,"name":"arch-link-2","bbox":[715,345,55,3]}
+{"kind":"shape","id":"sh/654re10v","slide":11,"name":"arch-link-3","bbox":[950,345,55,3]}
+{"kind":"shape","id":"sh/76d8761g","slide":11,"name":"arch-node-0","bbox":[65,260,180,190]}
+{"kind":"textbox","id":"sh/8b2p472h","slide":11,"name":"arch-head-0","text":"交互层","textPreview":"交互层","textChars":3,"textLines":1,"bbox":[83,285,144,42]}
+{"kind":"textbox","id":"sh/9cbqxcj2","slide":11,"name":"arch-body-0","text":"Vue 3\n表单 · 地图 · 时间线","textPreview":"Vue 3 | 表单 · 地图 · 时间线","textChars":19,"textLines":2,"bbox":[83,355,144,70]}
+{"kind":"shape","id":"sh/l0bq9gfi","slide":11,"name":"arch-node-1","bbox":[300,260,180,190]}
+{"kind":"textbox","id":"sh/kf29gbex","slide":11,"name":"arch-head-1","text":"业务层","textPreview":"业务层","textChars":3,"textLines":1,"bbox":[318,285,144,42]}
+{"kind":"textbox","id":"sh/zet876xs","slide":11,"name":"arch-body-1","text":"Spring Boot\n约束 · 预算 · 历史","textPreview":"Spring Boot | 约束 · 预算 · 历史","textChars":24,"textLines":2,"bbox":[318,355,144,70]}
+{"kind":"shape","id":"sh/yd0relw7","slide":11,"name":"arch-node-2","bbox":[535,260,180,190]}
+{"kind":"textbox","id":"sh/94bqd0fu","slide":11,"name":"arch-head-2","text":"知识层","textPreview":"知识层","textChars":3,"textLines":1,"bbox":[553,285,144,42]}
+{"kind":"textbox","id":"sh/8329kve9","slide":11,"name":"arch-body-2","text":"FastAPI + ChromaDB\n检索 · 过滤 · 排序","textPreview":"FastAPI + ChromaDB | 检索 · 过滤 · 排序","textChars":31,"textLines":2,"bbox":[553,355,144,70]}
+{"kind":"shape","id":"sh/72t8bqxo","slide":11,"name":"arch-node-3","bbox":[770,260,180,190]}
+{"kind":"textbox","id":"sh/m1krilw3","slide":11,"name":"arch-head-3","text":"数据层","textPreview":"数据层","textChars":3,"textLines":1,"bbox":[788,285,144,42]}
+{"kind":"textbox","id":"sh/h8vqh0fq","slide":11,"name":"arch-body-3","text":"MySQL / H2 + JSONL\nPOI · 来源 · 快照","textPreview":"MySQL / H2 + JSONL | POI · 来源 · 快照","textChars":32,"textLines":2,"bbox":[788,355,144,70]}
+{"kind":"shape","id":"sh/w7m9ove5","slide":11,"name":"arch-node-4","bbox":[1005,260,180,190]}
+{"kind":"textbox","id":"sh/0ne103qt","slide":11,"name":"arch-head-4","text":"能力层","textPreview":"能力层","textChars":3,"textLines":1,"bbox":[1023,285,144,42]}
+{"kind":"textbox","id":"sh/1on298re","slide":11,"name":"arch-body-4","text":"高德 · 百度 · DeepSeek\n路线 · 路况 · 个性化","textPreview":"高德 · 百度 · DeepSeek | 路线 · 路况 · 个性化","textChars":32,"textLines":2,"bbox":[1023,355,144,70]}
+{"kind":"textbox","id":"sh/elcjyt8n","slide":11,"name":"arch-note","text":"外部服务只提供能力，最终是否进入路线由业务约束决定。","textPreview":"外部服务只提供能力，最终是否进入路线由业务约束决定。","textChars":26,"textLines":1,"bbox":[300,520,680,48]}
+{"kind":"textbox","id":"sh/fmlk7y98","slide":11,"name":"footer","text":"智游 Agent · 基于通用智能体的智能旅游助手","textPreview":"智游 Agent · 基于通用智能体的智能旅游助手","textChars":25,"textLines":1,"bbox":[42,664,640,18]}
+{"kind":"notes","id":"nt/aig36m","slide":11,"text":""}
+{"kind":"slide","id":"sl/pegvz3","slide":12,"title":"创新点落在工程闭环，而不是只调用一次大模型","textShapes":12}
+{"kind":"textbox","id":"sh/54vu9cfy","slide":12,"name":"title-12","text":"创新点落在工程闭环，而不是只调用一次大模型","textPreview":"创新点落在工程闭环，而不是只调用一次大模型","textChars":21,"textLines":1,"bbox":[42,34,1150,76]}
+{"kind":"textbox","id":"sh/i1kbexg7","slide":12,"name":"no-12","text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1185,660,54,20]}
+{"kind":"shape","id":"sh/j2dc72hs","slide":12,"name":"innov-bg-0","bbox":[42,240,374,340]}
+{"kind":"textbox","id":"sh/wz2tcny1","slide":12,"name":"innov-stat-0","text":"同源","textPreview":"同源","textChars":2,"textLines":1,"bbox":[70,285,318,82]}
+{"kind":"textbox","id":"sh/x0bu5szm","slide":12,"name":"innov-head-0","text":"RAG 与路线共享 POI","textPreview":"RAG 与路线共享 POI","textChars":13,"textLines":1,"bbox":[70,390,318,52]}
+{"kind":"textbox","id":"sh/axkbadgb","slide":12,"name":"innov-body-0","text":"知识不会停留在介绍层","textPreview":"知识不会停留在介绍层","textChars":10,"textLines":1,"bbox":[70,475,318,68]}
+{"kind":"shape","id":"sh/vytc3ihw","slide":12,"name":"innov-bg-1","bbox":[453,240,374,340]}
+{"kind":"textbox","id":"sh/gv6toryl","slide":12,"name":"innov-stat-1","text":"硬约束","textPreview":"硬约束","textChars":3,"textLines":1,"bbox":[481,285,318,82]}
+{"kind":"textbox","id":"sh/1wfuhwf6","slide":12,"name":"innov-head-1","text":"明确地点与日期必须兑现","textPreview":"明确地点与日期必须兑现","textChars":11,"textLines":1,"bbox":[481,390,318,52]}
+{"kind":"textbox","id":"sh/pgjylw3y","slide":12,"name":"innov-body-1","text":"模型异常仍可执行","textPreview":"模型异常仍可执行","textChars":8,"textLines":1,"bbox":[481,475,318,68]}
+{"kind":"shape","id":"sh/ofaxcb2d","slide":12,"name":"innov-bg-2","bbox":[864,240,374,340]}
+{"kind":"textbox","id":"sh/3ehgj6l8","slide":12,"name":"innov-stat-2","text":"可追溯","textPreview":"可追溯","textChars":3,"textLines":1,"bbox":[892,285,318,82]}
+{"kind":"textbox","id":"sh/2t8fa1kn","slide":12,"name":"innov-head-2","text":"来源、有效期与降级状态可见","textPreview":"来源、有效期与降级状态可见","textChars":13,"textLines":1,"bbox":[892,390,318,52]}
+{"kind":"textbox","id":"sh/1szyhw32","slide":12,"name":"innov-body-2","text":"避免把推测当实时事实","textPreview":"避免把推测当实时事实","textChars":10,"textLines":1,"bbox":[892,475,318,68]}
+{"kind":"textbox","id":"sh/grqx8r2h","slide":12,"name":"footer","text":"智游 Agent · 基于通用智能体的智能旅游助手","textPreview":"智游 Agent · 基于通用智能体的智能旅游助手","textChars":25,"textLines":1,"bbox":[42,664,640,18]}
+{"kind":"notes","id":"nt/pegvz3","slide":12,"text":""}
+{"kind":"slide","id":"sl/dkw8pi","slide":13,"title":"用真实失败场景验证路线是否更可靠","textShapes":21}
+{"kind":"textbox","id":"sh/dkfudcze","slide":13,"name":"title-13","text":"用真实失败场景验证路线是否更可靠","textPreview":"用真实失败场景验证路线是否更可靠","textChars":16,"textLines":1,"bbox":[42,34,1150,76]}
+{"kind":"textbox","id":"sh/qh4b2xg3","slide":13,"name":"no-13","text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[1185,660,54,20]}
+{"kind":"textbox","id":"sh/bixcb2ho","slide":13,"name":"th1","text":"测试场景","textPreview":"测试场景","textChars":4,"textLines":1,"bbox":[60,165,260,36]}
+{"kind":"textbox","id":"sh/0n6t87y5","slide":13,"name":"th2","text":"验收标准","textPreview":"验收标准","textChars":4,"textLines":1,"bbox":[355,165,570,36]}
+{"kind":"textbox","id":"sh/lofuhczq","slide":13,"name":"th3","text":"结果","textPreview":"结果","textChars":2,"textLines":1,"bbox":[1010,165,150,36]}
+{"kind":"shape","id":"sh/ylob6hgz","slide":13,"name":"rule-205","bbox":[42,205,1196,2]}
+{"kind":"textbox","id":"sh/zmxcf2hk","slide":13,"name":"tr-a-0","text":"无效目的地","textPreview":"无效目的地","textChars":5,"textLines":1,"bbox":[60,230,260,40]}
+{"kind":"textbox","id":"sh/8bqtcry1","slide":13,"name":"tr-b-0","text":"停止规划并提示错误","textPreview":"停止规划并提示错误","textChars":9,"textLines":1,"bbox":[355,230,570,40]}
+{"kind":"textbox","id":"sh/9czulwzm","slide":13,"name":"tr-c-0","text":"通过","textPreview":"通过","textChars":2,"textLines":1,"bbox":[1010,230,150,40]}
+{"kind":"shape","id":"sh/9g3id87m","slide":13,"name":"rule-285","bbox":[42,285,1196,1]}
+{"kind":"textbox","id":"sh/8fu1k361","slide":13,"name":"tr-a-1","text":"第一天去八达岭","textPreview":"第一天去八达岭","textChars":7,"textLines":1,"bbox":[60,308,260,40]}
+{"kind":"textbox","id":"sh/nel0rypw","slide":13,"name":"tr-b-1","text":"第 1 天包含八达岭长城","textPreview":"第 1 天包含八达岭长城","textChars":12,"textLines":1,"bbox":[355,308,570,40]}
+{"kind":"textbox","id":"sh/mdcjitob","slide":13,"name":"tr-c-1","text":"通过","textPreview":"通过","textChars":2,"textLines":1,"bbox":[1010,308,150,40]}
+{"kind":"shape","id":"sh/x4n2hs7y","slide":13,"name":"rule-363","bbox":[42,363,1196,1]}
+{"kind":"textbox","id":"sh/wje1on6d","slide":13,"name":"tr-a-2","text":"RAG 城市过滤","textPreview":"RAG 城市过滤","textChars":8,"textLines":1,"bbox":[60,386,260,40]}
+{"kind":"textbox","id":"sh/vi5kfips","slide":13,"name":"tr-b-2","text":"只返回目标城市片段","textPreview":"只返回目标城市片段","textChars":9,"textLines":1,"bbox":[355,386,570,40]}
+{"kind":"textbox","id":"sh/ahwjmdo7","slide":13,"name":"tr-c-2","text":"通过","textPreview":"通过","textChars":2,"textLines":1,"bbox":[1010,386,150,40]}
+{"kind":"shape","id":"sh/d8jilo7e","slide":13,"name":"rule-441","bbox":[42,441,1196,1]}
+{"kind":"textbox","id":"sh/cna1cjqt","slide":13,"name":"tr-a-3","text":"地图服务失败","textPreview":"地图服务失败","textChars":6,"textLines":1,"bbox":[60,464,260,40]}
+{"kind":"textbox","id":"sh/o3y9on21","slide":13,"name":"tr-b-3","text":"显示估算与降级状态","textPreview":"显示估算与降级状态","textChars":9,"textLines":1,"bbox":[355,464,570,40]}
+{"kind":"textbox","id":"sh/p47ahsjm","slide":13,"name":"tr-c-3","text":"通过","textPreview":"通过","textChars":2,"textLines":1,"bbox":[1010,464,150,40]}
+{"kind":"shape","id":"sh/21grmdkv","slide":13,"name":"rule-519","bbox":[42,519,1196,1]}
+{"kind":"textbox","id":"sh/32psfi1g","slide":13,"name":"tr-a-4","text":"历史记录","textPreview":"历史记录","textChars":4,"textLines":1,"bbox":[60,542,260,40]}
+{"kind":"textbox","id":"sh/c7ytsn2d","slide":13,"name":"tr-b-4","text":"恢复完整计划与依据","textPreview":"恢复完整计划与依据","textChars":9,"textLines":1,"bbox":[355,542,570,40]}
+{"kind":"textbox","id":"sh/d8ralsji","slide":13,"name":"tr-c-4","text":"通过","textPreview":"通过","textChars":2,"textLines":1,"bbox":[1010,542,150,40]}
+{"kind":"shape","id":"sh/q5gbqxk7","slide":13,"name":"rule-597","bbox":[42,597,1196,1]}
+{"kind":"textbox","id":"sh/b6psj21s","slide":13,"name":"footer","text":"智游 Agent · 基于通用智能体的智能旅游助手","textPreview":"智游 Agent · 基于通用智能体的智能旅游助手","textChars":25,"textLines":1,"bbox":[42,664,640,18]}
+{"kind":"notes","id":"nt/dkw8pi","slide":13,"text":""}
+{"kind":"slide","id":"sl/uxfc01","slide":14,"title":"五人分工围绕同一交付链路协同","textShapes":18}
+{"kind":"textbox","id":"sh/xw72l03m","slide":14,"name":"title-14","text":"五人分工围绕同一交付链路协同","textPreview":"五人分工围绕同一交付链路协同","textChars":14,"textLines":1,"bbox":[42,34,1150,76]}
+{"kind":"textbox","id":"sh/atgjal4v","slide":14,"name":"no-14","text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[1185,660,54,20]}
+{"kind":"shape","id":"sh/bupkjqlg","slide":14,"name":"team-index-0","bbox":[42,145,65,65]}
+{"kind":"textbox","id":"sh/ory18vmp","slide":14,"name":"team-no-0","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[42,163,65,30]}
+{"kind":"textbox","id":"sh/9s72h03a","slide":14,"name":"team-name-0","text":"程鹏","textPreview":"程鹏","textChars":2,"textLines":1,"bbox":[145,149,150,40]}
+{"kind":"textbox","id":"sh/25wj6l4j","slide":14,"name":"team-role-0","text":"组长 · 总体方案 / 南京数据 / RAG / 后端与联调","textPreview":"组长 · 总体方案 / 南京数据 / RAG / 后端与联调","textChars":30,"textLines":1,"bbox":[330,149,850,50]}
+{"kind":"shape","id":"sh/nqp0fql4","slide":14,"name":"rule-213","bbox":[145,213,1035,1]}
+{"kind":"shape","id":"sh/8ni1kfm9","slide":14,"name":"team-index-1","bbox":[42,242,65,65]}
+{"kind":"textbox","id":"sh/tor2dk3e","slide":14,"name":"team-no-1","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[42,260,65,30]}
+{"kind":"textbox","id":"sh/psbaxwn6","slide":14,"name":"team-name-1","text":"马骁泽","textPreview":"马骁泽","textChars":3,"textLines":1,"bbox":[145,246,150,40]}
+{"kind":"textbox","id":"sh/or29or6l","slide":14,"name":"team-role-1","text":"北京 POI、官方证据、规范化与质量检查","textPreview":"北京 POI、官方证据、规范化与质量检查","textChars":20,"textLines":1,"bbox":[330,246,850,50]}
+{"kind":"shape","id":"sh/nqtsvm50","slide":14,"name":"rule-310","bbox":[145,310,1035,1]}
+{"kind":"shape","id":"sh/2pkrmhof","slide":14,"name":"team-index-2","bbox":[42,339,65,65]}
+{"kind":"textbox","id":"sh/1obatcnu","slide":14,"name":"team-no-2","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[42,357,65,30]}
+{"kind":"textbox","id":"sh/0ni9k769","slide":14,"name":"team-name-2","text":"柴正宇","textPreview":"柴正宇","textChars":3,"textLines":1,"bbox":[145,343,150,40]}
+{"kind":"textbox","id":"sh/fm9sr25o","slide":14,"name":"team-role-2","text":"杭州 POI、季节性、预约与开放规则","textPreview":"杭州 POI、季节性、预约与开放规则","textChars":18,"textLines":1,"bbox":[330,343,850,50]}
+{"kind":"shape","id":"sh/el0rihoj","slide":14,"name":"rule-407","bbox":[145,407,1035,1]}
+{"kind":"shape","id":"sh/lkva5gny","slide":14,"name":"team-index-3","bbox":[42,436,65,65]}
+{"kind":"textbox","id":"sh/kjmtwb6t","slide":14,"name":"team-no-3","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[42,454,65,30]}
+{"kind":"textbox","id":"sh/4nud8fup","slide":14,"name":"team-name-3","text":"梅佳俊","textPreview":"梅佳俊","textChars":3,"textLines":1,"bbox":[145,440,150,40]}
+{"kind":"textbox","id":"sh/5o3u1kva","slide":14,"name":"team-role-3","text":"Vue 3 交互、时间线、地图与多方案展示","textPreview":"Vue 3 交互、时间线、地图与多方案展示","textChars":21,"textLines":1,"bbox":[330,440,850,50]}
+{"kind":"shape","id":"sh/ilcv65cz","slide":14,"name":"rule-504","bbox":[145,504,1035,1]}
+{"kind":"shape","id":"sh/jmlczad4","slide":14,"name":"team-index-4","bbox":[42,533,65,65]}
+{"kind":"textbox","id":"sh/wzad4fut","slide":14,"name":"team-no-4","text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[42,551,65,30]}
+{"kind":"textbox","id":"sh/hk3ux0ve","slide":14,"name":"team-name-4","text":"杨宇韬","textPreview":"杨宇韬","textChars":3,"textLines":1,"bbox":[145,537,150,40]}
+{"kind":"textbox","id":"sh/uxsb25cn","slide":14,"name":"team-role-4","text":"测试、异常验证、演示素材与答辩材料","textPreview":"测试、异常验证、演示素材与答辩材料","textChars":17,"textLines":1,"bbox":[330,537,850,50]}
+{"kind":"shape","id":"sh/vy1cvad8","slide":14,"name":"rule-601","bbox":[145,601,1035,1]}
+{"kind":"textbox","id":"sh/8vat0veh","slide":14,"name":"footer","text":"智游 Agent · 基于通用智能体的智能旅游助手","textPreview":"智游 Agent · 基于通用智能体的智能旅游助手","textChars":25,"textLines":1,"bbox":[42,664,640,18]}
+{"kind":"notes","id":"nt/uxfc01","slide":14,"text":""}
+{"kind":"slide","id":"sl/9dwhk8","slide":15,"title":"CONCLUSION","textShapes":5}
+{"kind":"textbox","id":"sh/x4zqh0nq","slide":15,"name":"kicker","text":"CONCLUSION","textPreview":"CONCLUSION","textChars":10,"textLines":1,"bbox":[42,36,460,24]}
+{"kind":"textbox","id":"sh/a1or6lof","slide":15,"name":"close-title","text":"不是随机拼接，\n而是有依据的可执行路线","textPreview":"不是随机拼接， | 而是有依据的可执行路线","textChars":19,"textLines":2,"bbox":[42,190,1040,190]}
+{"kind":"textbox","id":"sh/v2x8fq5k","slide":15,"name":"close-body","text":"可信知识检索 × 硬约束规划 × 真实地图路线 × 个性化表达","textPreview":"可信知识检索 × 硬约束规划 × 真实地图路线 × 个性化表达","textChars":31,"textLines":1,"bbox":[42,455,940,48]}
+{"kind":"textbox","id":"sh/8z694b69","slide":15,"name":"close-next","text":"下一步：扩展更多城市、升级中文语义向量、接入授权票务与预约数据","textPreview":"下一步：扩展更多城市、升级中文语义向量、接入授权票务与预约数据","textChars":31,"textLines":1,"bbox":[42,550,940,56]}
+{"kind":"textbox","id":"sh/90fqdgnu","slide":15,"name":"close-no","text":"15","textPreview":"15","textChars":2,"textLines":1,"bbox":[1185,660,54,20]}
+{"kind":"notes","id":"nt/9dwhk8","slide":15,"text":""}

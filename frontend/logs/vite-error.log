@@ -1,0 +1,12 @@
+10:02:51 [vite] (client) [console.warn] TypeError: Failed to fetch
+    at Proxy.loadHistories (http://localhost:5173/src/App.vue?t=1784079461296:105:36)
+    at _createElementVNode.onClick._cache.<computed>._cache.<computed> (http://localhost:5173/src/App.vue?t=1784079461296:294:18)
+    at callWithErrorHandling (http://localhost:5173/node_modules/.vite/deps/vue.js?v=24e825a1:1889:17)
+    at callWithAsyncErrorHandling (http://localhost:5173/node_modules/.vite/deps/vue.js?v=24e825a1:1896:15)
+    at HTMLButtonElement.invoker (http://localhost:5173/node_modules/.vite/deps/vue.js?v=24e825a1:7707:10)
+11:25:09 [vite] (client) [console.warn] TypeError: Failed to fetch
+    at Proxy.loadHistories (http://localhost:5173/src/App.vue?t=1784085786137:105:36)
+    at _createElementVNode.onClick._cache.<computed>._cache.<computed> (http://localhost:5173/src/App.vue?t=1784085786137:307:18)
+    at callWithErrorHandling (http://localhost:5173/node_modules/.vite/deps/vue.js?v=24e825a1:1889:17)
+    at callWithAsyncErrorHandling (http://localhost:5173/node_modules/.vite/deps/vue.js?v=24e825a1:1896:15)
+    at HTMLButtonElement.invoker (http://localhost:5173/node_modules/.vite/deps/vue.js?v=24e825a1:7707:10)

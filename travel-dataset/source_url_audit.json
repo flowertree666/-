@@ -1,0 +1,2226 @@
+{
+  "generated_at": "2026-07-17T03:56:49.106Z",
+  "note": "HTTP failure can be caused by anti-bot rules or temporary network errors; it is a review signal, not proof that the source is false.",
+  "summary": {
+    "source_records": 145,
+    "unique_urls": 84,
+    "reachable_records": 105,
+    "unreachable_records": 40,
+    "homepage_only_records": 92,
+    "placeholder_pattern_records": 2
+  },
+  "records": [
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-S-20260716-001",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "https://www.dpm.org.cn/Visit.html",
+      "related_pois": [
+        "BJ-001"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.dpm.org.cn/Visit.html"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-S-20260716-002",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "https://www.dpm.org.cn/singles_detail/259831.html",
+      "related_pois": [
+        "BJ-001"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.dpm.org.cn/singles_detail/259831.html"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-S-20260716-003",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "https://ticket.dpm.org.cn/",
+      "related_pois": [
+        "BJ-001"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://ticket.dpm.org.cn/"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-S-20260716-004",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "https://www.dpm.org.cn/Visit.html",
+      "related_pois": [
+        "BJ-001"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.dpm.org.cn/Visit.html"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-S-20260716-005",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "https://www.dpm.org.cn/Visit.html",
+      "related_pois": [
+        "BJ-001"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.dpm.org.cn/Visit.html"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-S-20260716-006",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "https://www.dpm.org.cn/singles_detail/259832.html",
+      "related_pois": [
+        "BJ-001"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.dpm.org.cn/singles_detail/259832.html"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-S-20260716-007",
+      "source_type": "map",
+      "confidence": "medium",
+      "source_url": "https://www.amap.com/search?query=%E6%95%85%E5%AE%AB%E5%8D%9A%E7%89%A9%E9%99%A2&city=110000",
+      "related_pois": [
+        "BJ-001"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.amap.com/search?query=%E6%95%85%E5%AE%AB%E5%8D%9A%E7%89%A9%E9%99%A2&city=110000"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-S-20260716-008",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "https://www.dpm.org.cn/singles_detail/259831.html",
+      "related_pois": [
+        "BJ-001"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.dpm.org.cn/singles_detail/259831.html"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-S-002",
+      "source_type": "official",
+      "confidence": "medium",
+      "source_url": "https://www.beijing.gov.cn/",
+      "related_pois": [
+        "BJ-002"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.beijing.gov.cn/"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-S-003",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "http://www.tiantanpark.com/",
+      "related_pois": [
+        "BJ-003"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": false,
+      "status": null,
+      "error": "timeout"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-S-004",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "https://www.summerpalace-china.com/",
+      "related_pois": [
+        "BJ-004"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": false,
+      "status": null,
+      "error": "timeout"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-S-005",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "http://www.beihaipark.com.cn/",
+      "related_pois": [
+        "BJ-005"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.beihaipark.com.cn/"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-S-006",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "http://www.bjjspark.com/",
+      "related_pois": [
+        "BJ-006"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": false,
+      "status": null,
+      "error": "fetch failed"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-S-007",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "https://www.yuanmingyuanpark.cn/",
+      "related_pois": [
+        "BJ-007"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.yuanmingyuanpark.cn/"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-S-008",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "http://www.xiangshanpark.com/",
+      "related_pois": [
+        "BJ-008"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "http://www.xiangshanpark.com/cn/"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-S-009",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "http://www.beijingbg.com/",
+      "related_pois": [
+        "BJ-009"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.beijingbg.com/"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-S-010",
+      "source_type": "official",
+      "confidence": "medium",
+      "source_url": "https://www.beijing.gov.cn/",
+      "related_pois": [
+        "BJ-010"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.beijing.gov.cn/"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-S-011",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "https://www.n-s.cn/",
+      "related_pois": [
+        "BJ-011"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.n-s.cn/"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-S-012",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "https://www.pgm.org.cn/",
+      "related_pois": [
+        "BJ-012"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.pgm.org.cn/"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-S-013",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "http://www.yonghegong.cn/",
+      "related_pois": [
+        "BJ-013"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "http://www.yonghegong.cn/"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-S-014",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "http://www.kmgj.org.cn/",
+      "related_pois": [
+        "BJ-014"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": false,
+      "status": null,
+      "error": "fetch failed"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-S-015",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "https://www.chnmuseum.cn/",
+      "related_pois": [
+        "BJ-015"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.chnmuseum.cn/"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-S-016",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "https://www.capitalmuseum.org.cn/",
+      "related_pois": [
+        "BJ-016"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.capitalmuseum.org.cn/"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-S-017",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "https://www.jb.mil.cn/",
+      "related_pois": [
+        "BJ-017"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": false,
+      "status": null,
+      "error": "timeout"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-S-018",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "https://www.cstm.org.cn/",
+      "related_pois": [
+        "BJ-018"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.cstm.org.cn/"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-S-019",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "https://www.bmnh.org.cn/",
+      "related_pois": [
+        "BJ-019"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": false,
+      "status": 500,
+      "final_url": "https://www.bmnh.org.cn/"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-S-020",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "http://www.beijingzoo.com/",
+      "related_pois": [
+        "BJ-020"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": false,
+      "status": null,
+      "error": "fetch failed"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-S-021",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "https://www.798art.com/",
+      "related_pois": [
+        "BJ-021"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": false,
+      "status": null,
+      "error": "timeout"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-S-022",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "https://www.universalbeijingresort.com/",
+      "related_pois": [
+        "BJ-022"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.universalbeijingresort.com/zh_CN"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-S-023",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "https://www.badaling.cn/",
+      "related_pois": [
+        "BJ-023"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.badaling.cn/website/pc/index.html"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-S-024",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "https://www.mutianyugreatwall.com/",
+      "related_pois": [
+        "BJ-024"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.mutianyugreatwall.com/"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-S-025",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "http://www.mingtombs.com/",
+      "related_pois": [
+        "BJ-025"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": false,
+      "status": null,
+      "error": "timeout"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-S-026",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "https://www.wtown.com/",
+      "related_pois": [
+        "BJ-026"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.wtown.com/pc/"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-S-027",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "http://www.beijingworldpark.com.cn/",
+      "related_pois": [
+        "BJ-027"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": false,
+      "status": null,
+      "error": "timeout"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-S-028",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "https://bj.happyvalley.com/",
+      "related_pois": [
+        "BJ-028"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": false,
+      "status": null,
+      "error": "timeout"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-S-029",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "http://www.zkd.cn/",
+      "related_pois": [
+        "BJ-029"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": false,
+      "status": null,
+      "error": "timeout"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-S-030",
+      "source_type": "official",
+      "confidence": "medium",
+      "source_url": "https://www.beijing.gov.cn/",
+      "related_pois": [
+        "BJ-030"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.beijing.gov.cn/"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-O-002",
+      "source_type": "official_rule_page_candidate",
+      "confidence": "medium",
+      "source_url": "https://www.beijing.gov.cn/fuwu/bmfw/",
+      "related_pois": [
+        "BJ-002"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.beijing.gov.cn/fuwu/bmfw/"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-O-003",
+      "source_type": "official_rule_page_pending",
+      "confidence": "low",
+      "source_url": "http://www.tiantanpark.com/",
+      "related_pois": [
+        "BJ-003"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": false,
+      "status": null,
+      "error": "timeout"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-O-004",
+      "source_type": "official_rule_page_pending",
+      "confidence": "low",
+      "source_url": "https://www.summerpalace-china.com/",
+      "related_pois": [
+        "BJ-004"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": false,
+      "status": null,
+      "error": "timeout"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-O-005",
+      "source_type": "official_rule_page_pending",
+      "confidence": "low",
+      "source_url": "http://www.beihaipark.com.cn/",
+      "related_pois": [
+        "BJ-005"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.beihaipark.com.cn/"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-O-006",
+      "source_type": "official_rule_page_pending",
+      "confidence": "low",
+      "source_url": "http://www.bjjspark.com/",
+      "related_pois": [
+        "BJ-006"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": false,
+      "status": null,
+      "error": "fetch failed"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-O-007",
+      "source_type": "official_rule_page_candidate",
+      "confidence": "medium",
+      "source_url": "https://www.yuanmingyuanpark.cn/pw/",
+      "related_pois": [
+        "BJ-007"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.yuanmingyuanpark.cn/pw/"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-O-008",
+      "source_type": "official_rule_page_candidate",
+      "confidence": "medium",
+      "source_url": "http://www.xiangshanpark.com/cn/tabs/page/default.aspx?tabid=700051",
+      "related_pois": [
+        "BJ-008"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "http://www.xiangshanpark.com/cn/tabs/page/default.aspx?tabid=700051"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-O-009",
+      "source_type": "official_rule_page_pending",
+      "confidence": "low",
+      "source_url": "http://www.beijingbg.com/",
+      "related_pois": [
+        "BJ-009"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.beijingbg.com/"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-O-010",
+      "source_type": "official_rule_page_candidate",
+      "confidence": "medium",
+      "source_url": "https://www.beijing.gov.cn/fuwu/bmfw/",
+      "related_pois": [
+        "BJ-010"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.beijing.gov.cn/fuwu/bmfw/"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-O-011",
+      "source_type": "official_rule_page_candidate",
+      "confidence": "medium",
+      "source_url": "https://www.n-s.cn/article_a66234a174ab4e2ca9df4d5ee080f2c9.html",
+      "related_pois": [
+        "BJ-011"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.n-s.cn/article_a66234a174ab4e2ca9df4d5ee080f2c9.html"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-O-012",
+      "source_type": "official_rule_page_candidate",
+      "confidence": "medium",
+      "source_url": "https://www.pgm.org.cn/pgm/daolan/daolan.shtml",
+      "related_pois": [
+        "BJ-012"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.pgm.org.cn/pgm/daolan/daolan.shtml"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-O-013",
+      "source_type": "official_rule_page_pending",
+      "confidence": "low",
+      "source_url": "http://www.yonghegong.cn/",
+      "related_pois": [
+        "BJ-013"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "http://www.yonghegong.cn/"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-O-014",
+      "source_type": "official_rule_page_pending",
+      "confidence": "low",
+      "source_url": "http://www.kmgj.org.cn/",
+      "related_pois": [
+        "BJ-014"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": false,
+      "status": null,
+      "error": "fetch failed"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-O-015",
+      "source_type": "official_rule_page_candidate",
+      "confidence": "medium",
+      "source_url": "https://www.chnmuseum.cn/cg/",
+      "related_pois": [
+        "BJ-015"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.chnmuseum.cn/cg/"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-O-016",
+      "source_type": "official_rule_page_candidate",
+      "confidence": "medium",
+      "source_url": "https://www.capitalmuseum.org.cn/visit",
+      "related_pois": [
+        "BJ-016"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.capitalmuseum.org.cn/visit"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-O-017",
+      "source_type": "official_rule_page_pending",
+      "confidence": "low",
+      "source_url": "https://www.jb.mil.cn/",
+      "related_pois": [
+        "BJ-017"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": false,
+      "status": null,
+      "error": "timeout"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-O-018",
+      "source_type": "official_rule_page_candidate",
+      "confidence": "medium",
+      "source_url": "https://www.cstm.org.cn/ykfw/kfsj/index.html",
+      "related_pois": [
+        "BJ-018"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.cstm.org.cn/ykfw/kfsj/index.html"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-O-019",
+      "source_type": "official_rule_page_pending",
+      "confidence": "low",
+      "source_url": "https://www.bmnh.org.cn/",
+      "related_pois": [
+        "BJ-019"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": false,
+      "status": 500,
+      "final_url": "https://www.bmnh.org.cn/"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-O-020",
+      "source_type": "official_rule_page_pending",
+      "confidence": "low",
+      "source_url": "http://www.beijingzoo.com/",
+      "related_pois": [
+        "BJ-020"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": false,
+      "status": null,
+      "error": "fetch failed"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-O-021",
+      "source_type": "official_rule_page_pending",
+      "confidence": "low",
+      "source_url": "https://www.798art.com/",
+      "related_pois": [
+        "BJ-021"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": false,
+      "status": null,
+      "error": "timeout"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-O-022",
+      "source_type": "official_rule_page_candidate",
+      "confidence": "medium",
+      "source_url": "https://www.universalbeijingresort.com/zh_CN/tickets-offers",
+      "related_pois": [
+        "BJ-022"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.universalbeijingresort.com/zh_CN/tickets-offers"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-O-023",
+      "source_type": "official_rule_page_pending",
+      "confidence": "low",
+      "source_url": "https://www.badaling.cn/",
+      "related_pois": [
+        "BJ-023"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.badaling.cn/website/pc/index.html"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-O-024",
+      "source_type": "official_rule_page_candidate",
+      "confidence": "medium",
+      "source_url": "https://www.mutianyugreatwall.com/cnmtyProfile",
+      "related_pois": [
+        "BJ-024"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.mutianyugreatwall.com/cnmtyProfile"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-O-025",
+      "source_type": "official_rule_page_pending",
+      "confidence": "low",
+      "source_url": "http://www.mingtombs.com/",
+      "related_pois": [
+        "BJ-025"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": false,
+      "status": null,
+      "error": "timeout"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-O-026",
+      "source_type": "official_rule_page_candidate",
+      "confidence": "medium",
+      "source_url": "https://www.wtown.com/pc/ticket/index.html",
+      "related_pois": [
+        "BJ-026"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.wtown.com/pc/ticket/index.html"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-O-027",
+      "source_type": "official_rule_page_pending",
+      "confidence": "low",
+      "source_url": "http://www.beijingworldpark.com.cn/",
+      "related_pois": [
+        "BJ-027"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": false,
+      "status": null,
+      "error": "timeout"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-O-028",
+      "source_type": "official_rule_page_pending",
+      "confidence": "low",
+      "source_url": "https://bj.happyvalley.com/",
+      "related_pois": [
+        "BJ-028"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": false,
+      "status": null,
+      "error": "timeout"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-O-029",
+      "source_type": "official_rule_page_pending",
+      "confidence": "low",
+      "source_url": "http://www.zkd.cn/",
+      "related_pois": [
+        "BJ-029"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": false,
+      "status": null,
+      "error": "timeout"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-O-030",
+      "source_type": "official_rule_page_candidate",
+      "confidence": "medium",
+      "source_url": "https://www.beijing.gov.cn/fuwu/bmfw/",
+      "related_pois": [
+        "BJ-030"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.beijing.gov.cn/fuwu/bmfw/"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-M-002",
+      "source_type": "map",
+      "confidence": "medium",
+      "source_url": "https://www.amap.com/search?query=%E5%A4%A9%E5%AE%89%E9%97%A8%E5%B9%BF%E5%9C%BA&city=110000",
+      "related_pois": [
+        "BJ-002"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.amap.com/search?query=%E5%A4%A9%E5%AE%89%E9%97%A8%E5%B9%BF%E5%9C%BA&city=110000"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-M-003",
+      "source_type": "map",
+      "confidence": "medium",
+      "source_url": "https://www.amap.com/search?query=%E5%A4%A9%E5%9D%9B%E5%85%AC%E5%9B%AD&city=110000",
+      "related_pois": [
+        "BJ-003"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.amap.com/search?query=%E5%A4%A9%E5%9D%9B%E5%85%AC%E5%9B%AD&city=110000"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-M-004",
+      "source_type": "map",
+      "confidence": "medium",
+      "source_url": "https://www.amap.com/search?query=%E9%A2%90%E5%92%8C%E5%9B%AD&city=110000",
+      "related_pois": [
+        "BJ-004"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.amap.com/search?query=%E9%A2%90%E5%92%8C%E5%9B%AD&city=110000"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-M-005",
+      "source_type": "map",
+      "confidence": "medium",
+      "source_url": "https://www.amap.com/search?query=%E5%8C%97%E6%B5%B7%E5%85%AC%E5%9B%AD&city=110000",
+      "related_pois": [
+        "BJ-005"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.amap.com/search?query=%E5%8C%97%E6%B5%B7%E5%85%AC%E5%9B%AD&city=110000"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-M-006",
+      "source_type": "map",
+      "confidence": "medium",
+      "source_url": "https://www.amap.com/search?query=%E6%99%AF%E5%B1%B1%E5%85%AC%E5%9B%AD&city=110000",
+      "related_pois": [
+        "BJ-006"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.amap.com/search?query=%E6%99%AF%E5%B1%B1%E5%85%AC%E5%9B%AD&city=110000"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-M-007",
+      "source_type": "map",
+      "confidence": "medium",
+      "source_url": "https://www.amap.com/search?query=%E5%9C%86%E6%98%8E%E5%9B%AD%E9%81%97%E5%9D%80%E5%85%AC%E5%9B%AD&city=110000",
+      "related_pois": [
+        "BJ-007"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.amap.com/search?query=%E5%9C%86%E6%98%8E%E5%9B%AD%E9%81%97%E5%9D%80%E5%85%AC%E5%9B%AD&city=110000"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-M-008",
+      "source_type": "map",
+      "confidence": "medium",
+      "source_url": "https://www.amap.com/search?query=%E9%A6%99%E5%B1%B1%E5%85%AC%E5%9B%AD&city=110000",
+      "related_pois": [
+        "BJ-008"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.amap.com/search?query=%E9%A6%99%E5%B1%B1%E5%85%AC%E5%9B%AD&city=110000"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-M-009",
+      "source_type": "map",
+      "confidence": "medium",
+      "source_url": "https://www.amap.com/search?query=%E5%8C%97%E4%BA%AC%E6%A4%8D%E7%89%A9%E5%9B%AD&city=110000",
+      "related_pois": [
+        "BJ-009"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.amap.com/search?query=%E5%8C%97%E4%BA%AC%E6%A4%8D%E7%89%A9%E5%9B%AD&city=110000"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-M-010",
+      "source_type": "map",
+      "confidence": "medium",
+      "source_url": "https://www.amap.com/search?query=%E5%A5%A5%E6%9E%97%E5%8C%B9%E5%85%8B%E5%85%AC%E5%9B%AD&city=110000",
+      "related_pois": [
+        "BJ-010"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.amap.com/search?query=%E5%A5%A5%E6%9E%97%E5%8C%B9%E5%85%8B%E5%85%AC%E5%9B%AD&city=110000"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-M-011",
+      "source_type": "map",
+      "confidence": "medium",
+      "source_url": "https://www.amap.com/search?query=%E5%9B%BD%E5%AE%B6%E4%BD%93%E8%82%B2%E5%9C%BA%EF%BC%88%E9%B8%9F%E5%B7%A2%EF%BC%89&city=110000",
+      "related_pois": [
+        "BJ-011"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.amap.com/search?query=%E5%9B%BD%E5%AE%B6%E4%BD%93%E8%82%B2%E5%9C%BA%EF%BC%88%E9%B8%9F%E5%B7%A2%EF%BC%89&city=110000"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-M-012",
+      "source_type": "map",
+      "confidence": "medium",
+      "source_url": "https://www.amap.com/search?query=%E6%81%AD%E7%8E%8B%E5%BA%9C%E5%8D%9A%E7%89%A9%E9%A6%86&city=110000",
+      "related_pois": [
+        "BJ-012"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.amap.com/search?query=%E6%81%AD%E7%8E%8B%E5%BA%9C%E5%8D%9A%E7%89%A9%E9%A6%86&city=110000"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-M-013",
+      "source_type": "map",
+      "confidence": "medium",
+      "source_url": "https://www.amap.com/search?query=%E9%9B%8D%E5%92%8C%E5%AE%AB&city=110000",
+      "related_pois": [
+        "BJ-013"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.amap.com/search?query=%E9%9B%8D%E5%92%8C%E5%AE%AB&city=110000"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-M-014",
+      "source_type": "map",
+      "confidence": "medium",
+      "source_url": "https://www.amap.com/search?query=%E5%8C%97%E4%BA%AC%E5%AD%94%E5%BA%99%E5%92%8C%E5%9B%BD%E5%AD%90%E7%9B%91%E5%8D%9A%E7%89%A9%E9%A6%86&city=110000",
+      "related_pois": [
+        "BJ-014"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.amap.com/search?query=%E5%8C%97%E4%BA%AC%E5%AD%94%E5%BA%99%E5%92%8C%E5%9B%BD%E5%AD%90%E7%9B%91%E5%8D%9A%E7%89%A9%E9%A6%86&city=110000"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-M-015",
+      "source_type": "map",
+      "confidence": "medium",
+      "source_url": "https://www.amap.com/search?query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%8D%9A%E7%89%A9%E9%A6%86&city=110000",
+      "related_pois": [
+        "BJ-015"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.amap.com/search?query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%8D%9A%E7%89%A9%E9%A6%86&city=110000"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-M-016",
+      "source_type": "map",
+      "confidence": "medium",
+      "source_url": "https://www.amap.com/search?query=%E9%A6%96%E9%83%BD%E5%8D%9A%E7%89%A9%E9%A6%86&city=110000",
+      "related_pois": [
+        "BJ-016"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.amap.com/search?query=%E9%A6%96%E9%83%BD%E5%8D%9A%E7%89%A9%E9%A6%86&city=110000"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-M-017",
+      "source_type": "map",
+      "confidence": "medium",
+      "source_url": "https://www.amap.com/search?query=%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E9%9D%A9%E5%91%BD%E5%86%9B%E4%BA%8B%E5%8D%9A%E7%89%A9%E9%A6%86&city=110000",
+      "related_pois": [
+        "BJ-017"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.amap.com/search?query=%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E9%9D%A9%E5%91%BD%E5%86%9B%E4%BA%8B%E5%8D%9A%E7%89%A9%E9%A6%86&city=110000"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-M-018",
+      "source_type": "map",
+      "confidence": "medium",
+      "source_url": "https://www.amap.com/search?query=%E4%B8%AD%E5%9B%BD%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%E9%A6%86&city=110000",
+      "related_pois": [
+        "BJ-018"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.amap.com/search?query=%E4%B8%AD%E5%9B%BD%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%E9%A6%86&city=110000"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-M-019",
+      "source_type": "map",
+      "confidence": "medium",
+      "source_url": "https://www.amap.com/search?query=%E5%8C%97%E4%BA%AC%E8%87%AA%E7%84%B6%E5%8D%9A%E7%89%A9%E9%A6%86&city=110000",
+      "related_pois": [
+        "BJ-019"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.amap.com/search?query=%E5%8C%97%E4%BA%AC%E8%87%AA%E7%84%B6%E5%8D%9A%E7%89%A9%E9%A6%86&city=110000"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-M-020",
+      "source_type": "map",
+      "confidence": "medium",
+      "source_url": "https://www.amap.com/search?query=%E5%8C%97%E4%BA%AC%E5%8A%A8%E7%89%A9%E5%9B%AD&city=110000",
+      "related_pois": [
+        "BJ-020"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.amap.com/search?query=%E5%8C%97%E4%BA%AC%E5%8A%A8%E7%89%A9%E5%9B%AD&city=110000"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-M-021",
+      "source_type": "map",
+      "confidence": "medium",
+      "source_url": "https://www.amap.com/search?query=798%E8%89%BA%E6%9C%AF%E5%8C%BA&city=110000",
+      "related_pois": [
+        "BJ-021"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.amap.com/search?query=798%E8%89%BA%E6%9C%AF%E5%8C%BA&city=110000"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-M-022",
+      "source_type": "map",
+      "confidence": "medium",
+      "source_url": "https://www.amap.com/search?query=%E5%8C%97%E4%BA%AC%E7%8E%AF%E7%90%83%E5%BA%A6%E5%81%87%E5%8C%BA&city=110000",
+      "related_pois": [
+        "BJ-022"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.amap.com/search?query=%E5%8C%97%E4%BA%AC%E7%8E%AF%E7%90%83%E5%BA%A6%E5%81%87%E5%8C%BA&city=110000"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-M-023",
+      "source_type": "map",
+      "confidence": "medium",
+      "source_url": "https://www.amap.com/search?query=%E5%85%AB%E8%BE%BE%E5%B2%AD%E9%95%BF%E5%9F%8E&city=110000",
+      "related_pois": [
+        "BJ-023"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.amap.com/search?query=%E5%85%AB%E8%BE%BE%E5%B2%AD%E9%95%BF%E5%9F%8E&city=110000"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-M-024",
+      "source_type": "map",
+      "confidence": "medium",
+      "source_url": "https://www.amap.com/search?query=%E6%85%95%E7%94%B0%E5%B3%AA%E9%95%BF%E5%9F%8E&city=110000",
+      "related_pois": [
+        "BJ-024"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.amap.com/search?query=%E6%85%95%E7%94%B0%E5%B3%AA%E9%95%BF%E5%9F%8E&city=110000"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-M-025",
+      "source_type": "map",
+      "confidence": "medium",
+      "source_url": "https://www.amap.com/search?query=%E6%98%8E%E5%8D%81%E4%B8%89%E9%99%B5&city=110000",
+      "related_pois": [
+        "BJ-025"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.amap.com/search?query=%E6%98%8E%E5%8D%81%E4%B8%89%E9%99%B5&city=110000"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-M-026",
+      "source_type": "map",
+      "confidence": "medium",
+      "source_url": "https://www.amap.com/search?query=%E5%8F%A4%E5%8C%97%E6%B0%B4%E9%95%87&city=110000",
+      "related_pois": [
+        "BJ-026"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.amap.com/search?query=%E5%8F%A4%E5%8C%97%E6%B0%B4%E9%95%87&city=110000"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-M-027",
+      "source_type": "map",
+      "confidence": "medium",
+      "source_url": "https://www.amap.com/search?query=%E5%8C%97%E4%BA%AC%E4%B8%96%E7%95%8C%E5%85%AC%E5%9B%AD&city=110000",
+      "related_pois": [
+        "BJ-027"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.amap.com/search?query=%E5%8C%97%E4%BA%AC%E4%B8%96%E7%95%8C%E5%85%AC%E5%9B%AD&city=110000"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-M-028",
+      "source_type": "map",
+      "confidence": "medium",
+      "source_url": "https://www.amap.com/search?query=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&city=110000",
+      "related_pois": [
+        "BJ-028"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.amap.com/search?query=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&city=110000"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-M-029",
+      "source_type": "map",
+      "confidence": "medium",
+      "source_url": "https://www.amap.com/search?query=%E5%91%A8%E5%8F%A3%E5%BA%97%E5%8C%97%E4%BA%AC%E4%BA%BA%E9%81%97%E5%9D%80%E5%8D%9A%E7%89%A9%E9%A6%86&city=110000",
+      "related_pois": [
+        "BJ-029"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.amap.com/search?query=%E5%91%A8%E5%8F%A3%E5%BA%97%E5%8C%97%E4%BA%AC%E4%BA%BA%E9%81%97%E5%9D%80%E5%8D%9A%E7%89%A9%E9%A6%86&city=110000"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-M-030",
+      "source_type": "map",
+      "confidence": "medium",
+      "source_url": "https://www.amap.com/search?query=%E5%8D%81%E6%B8%A1%E9%A3%8E%E6%99%AF%E5%8C%BA&city=110000",
+      "related_pois": [
+        "BJ-030"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.amap.com/search?query=%E5%8D%81%E6%B8%A1%E9%A3%8E%E6%99%AF%E5%8C%BA&city=110000"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-D-002",
+      "source_type": "official_collection_status",
+      "confidence": "medium",
+      "source_url": "https://www.beijing.gov.cn/",
+      "related_pois": [
+        "BJ-002"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.beijing.gov.cn/"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-D-003",
+      "source_type": "official_collection_status",
+      "confidence": "medium",
+      "source_url": "http://www.tiantanpark.com/",
+      "related_pois": [
+        "BJ-003"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": false,
+      "status": null,
+      "error": "timeout"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-D-004",
+      "source_type": "official_collection_status",
+      "confidence": "medium",
+      "source_url": "https://www.summerpalace-china.com/",
+      "related_pois": [
+        "BJ-004"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": false,
+      "status": null,
+      "error": "timeout"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-D-005",
+      "source_type": "official_collection_status",
+      "confidence": "medium",
+      "source_url": "http://www.beihaipark.com.cn/",
+      "related_pois": [
+        "BJ-005"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.beihaipark.com.cn/"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-D-006",
+      "source_type": "official_collection_status",
+      "confidence": "medium",
+      "source_url": "http://www.bjjspark.com/",
+      "related_pois": [
+        "BJ-006"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": false,
+      "status": null,
+      "error": "fetch failed"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-D-007",
+      "source_type": "official_collection_status",
+      "confidence": "medium",
+      "source_url": "https://www.yuanmingyuanpark.cn/",
+      "related_pois": [
+        "BJ-007"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.yuanmingyuanpark.cn/"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-D-008",
+      "source_type": "official_collection_status",
+      "confidence": "medium",
+      "source_url": "http://www.xiangshanpark.com/",
+      "related_pois": [
+        "BJ-008"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "http://www.xiangshanpark.com/cn/"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-D-009",
+      "source_type": "official_collection_status",
+      "confidence": "medium",
+      "source_url": "http://www.beijingbg.com/",
+      "related_pois": [
+        "BJ-009"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.beijingbg.com/"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-D-010",
+      "source_type": "official_collection_status",
+      "confidence": "medium",
+      "source_url": "https://www.beijing.gov.cn/",
+      "related_pois": [
+        "BJ-010"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.beijing.gov.cn/"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-D-011",
+      "source_type": "official_collection_status",
+      "confidence": "medium",
+      "source_url": "https://www.n-s.cn/",
+      "related_pois": [
+        "BJ-011"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.n-s.cn/"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-D-012",
+      "source_type": "official_collection_status",
+      "confidence": "medium",
+      "source_url": "https://www.pgm.org.cn/",
+      "related_pois": [
+        "BJ-012"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.pgm.org.cn/"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-D-013",
+      "source_type": "official_collection_status",
+      "confidence": "medium",
+      "source_url": "http://www.yonghegong.cn/",
+      "related_pois": [
+        "BJ-013"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "http://www.yonghegong.cn/"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-D-014",
+      "source_type": "official_collection_status",
+      "confidence": "medium",
+      "source_url": "http://www.kmgj.org.cn/",
+      "related_pois": [
+        "BJ-014"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": false,
+      "status": null,
+      "error": "fetch failed"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-D-015",
+      "source_type": "official_collection_status",
+      "confidence": "medium",
+      "source_url": "https://www.chnmuseum.cn/",
+      "related_pois": [
+        "BJ-015"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.chnmuseum.cn/"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-D-016",
+      "source_type": "official_collection_status",
+      "confidence": "medium",
+      "source_url": "https://www.capitalmuseum.org.cn/",
+      "related_pois": [
+        "BJ-016"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.capitalmuseum.org.cn/"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-D-017",
+      "source_type": "official_collection_status",
+      "confidence": "medium",
+      "source_url": "https://www.jb.mil.cn/",
+      "related_pois": [
+        "BJ-017"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": false,
+      "status": null,
+      "error": "timeout"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-D-018",
+      "source_type": "official_collection_status",
+      "confidence": "medium",
+      "source_url": "https://www.cstm.org.cn/",
+      "related_pois": [
+        "BJ-018"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.cstm.org.cn/"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-D-019",
+      "source_type": "official_collection_status",
+      "confidence": "medium",
+      "source_url": "https://www.bmnh.org.cn/",
+      "related_pois": [
+        "BJ-019"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": false,
+      "status": 500,
+      "final_url": "https://www.bmnh.org.cn/"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-D-020",
+      "source_type": "official_collection_status",
+      "confidence": "medium",
+      "source_url": "http://www.beijingzoo.com/",
+      "related_pois": [
+        "BJ-020"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": false,
+      "status": null,
+      "error": "fetch failed"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-D-021",
+      "source_type": "official_collection_status",
+      "confidence": "medium",
+      "source_url": "https://www.798art.com/",
+      "related_pois": [
+        "BJ-021"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": false,
+      "status": null,
+      "error": "timeout"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-D-022",
+      "source_type": "official_collection_status",
+      "confidence": "medium",
+      "source_url": "https://www.universalbeijingresort.com/",
+      "related_pois": [
+        "BJ-022"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.universalbeijingresort.com/zh_CN"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-D-023",
+      "source_type": "official_collection_status",
+      "confidence": "medium",
+      "source_url": "https://www.badaling.cn/",
+      "related_pois": [
+        "BJ-023"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.badaling.cn/website/pc/index.html"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-D-024",
+      "source_type": "official_collection_status",
+      "confidence": "medium",
+      "source_url": "https://www.mutianyugreatwall.com/",
+      "related_pois": [
+        "BJ-024"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.mutianyugreatwall.com/"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-D-025",
+      "source_type": "official_collection_status",
+      "confidence": "medium",
+      "source_url": "http://www.mingtombs.com/",
+      "related_pois": [
+        "BJ-025"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": false,
+      "status": null,
+      "error": "timeout"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-D-026",
+      "source_type": "official_collection_status",
+      "confidence": "medium",
+      "source_url": "https://www.wtown.com/",
+      "related_pois": [
+        "BJ-026"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.wtown.com/pc/"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-D-027",
+      "source_type": "official_collection_status",
+      "confidence": "medium",
+      "source_url": "http://www.beijingworldpark.com.cn/",
+      "related_pois": [
+        "BJ-027"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": false,
+      "status": null,
+      "error": "timeout"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-D-028",
+      "source_type": "official_collection_status",
+      "confidence": "medium",
+      "source_url": "https://bj.happyvalley.com/",
+      "related_pois": [
+        "BJ-028"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": false,
+      "status": null,
+      "error": "timeout"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-D-029",
+      "source_type": "official_collection_status",
+      "confidence": "medium",
+      "source_url": "http://www.zkd.cn/",
+      "related_pois": [
+        "BJ-029"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": false,
+      "status": null,
+      "error": "timeout"
+    },
+    {
+      "dataset": "beijing",
+      "source_id": "BJ-EXP-D-030",
+      "source_type": "official_collection_status",
+      "confidence": "medium",
+      "source_url": "https://www.beijing.gov.cn/",
+      "related_pois": [
+        "BJ-030"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.beijing.gov.cn/"
+    },
+    {
+      "dataset": "hangzhou-data",
+      "source_id": "HZ-S-20260716-001",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "https://westlake.hangzhou.gov.cn",
+      "related_pois": [
+        "HZ-001",
+        "HZ-003",
+        "HZ-004",
+        "HZ-005",
+        "HZ-012"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://westlake.hangzhou.gov.cn/"
+    },
+    {
+      "dataset": "hangzhou-data",
+      "source_id": "HZ-S-20260716-002",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "https://mp.weixin.qq.com/s/westlake-booking-guide-2026",
+      "related_pois": [
+        "HZ-001",
+        "HZ-002",
+        "HZ-003",
+        "HZ-004"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": true,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://mp.weixin.qq.com/s/westlake-booking-guide-2026"
+    },
+    {
+      "dataset": "hangzhou-data",
+      "source_id": "HZ-S-20260716-003",
+      "source_type": "map",
+      "confidence": "medium",
+      "source_url": "https://www.amap.com/search?query=%E8%A5%BF%E6%B9%96&city=330100",
+      "related_pois": [
+        "HZ-001"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.amap.com/search?query=%E8%A5%BF%E6%B9%96&city=330100"
+    },
+    {
+      "dataset": "hangzhou-data",
+      "source_id": "HZ-S-20260716-004",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "https://www.lingyinsi.org",
+      "related_pois": [
+        "HZ-002"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.lingyinsi.org/"
+    },
+    {
+      "dataset": "hangzhou-data",
+      "source_id": "HZ-S-20260716-005",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "https://mp.weixin.qq.com/s/westlake-limit-202607",
+      "related_pois": [
+        "HZ-002",
+        "HZ-003"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": true,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://mp.weixin.qq.com/s/westlake-limit-202607"
+    },
+    {
+      "dataset": "hangzhou-data",
+      "source_id": "HZ-S-20260716-006",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "https://www.leifengta.com",
+      "related_pois": [
+        "HZ-003"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": false,
+      "status": null,
+      "error": "fetch failed"
+    },
+    {
+      "dataset": "hangzhou-data",
+      "source_id": "HZ-S-20260716-007",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "https://westlake.hangzhou.gov.cn",
+      "related_pois": [
+        "HZ-004"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://westlake.hangzhou.gov.cn/"
+    },
+    {
+      "dataset": "hangzhou-data",
+      "source_id": "HZ-S-20260716-008",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "https://westlake.hangzhou.gov.cn",
+      "related_pois": [
+        "HZ-005"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://westlake.hangzhou.gov.cn/"
+    },
+    {
+      "dataset": "hangzhou-data",
+      "source_id": "HZ-S-20260716-009",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "https://www.hangzhou.gov.cn",
+      "related_pois": [
+        "HZ-006",
+        "HZ-007",
+        "HZ-008"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.hangzhou.gov.cn/"
+    },
+    {
+      "dataset": "hangzhou-data",
+      "source_id": "HZ-S-20260716-010",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "https://www.dsgmuseum.com",
+      "related_pois": [
+        "HZ-009"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": false,
+      "status": null,
+      "error": "fetch failed"
+    },
+    {
+      "dataset": "hangzhou-data",
+      "source_id": "HZ-S-20260716-011",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "https://www.lzsite.cn",
+      "related_pois": [
+        "HZ-010"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.lzsite.cn/"
+    },
+    {
+      "dataset": "hangzhou-data",
+      "source_id": "HZ-S-20260716-012",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "https://www.hangzhou.gov.cn",
+      "related_pois": [
+        "HZ-011"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.hangzhou.gov.cn/"
+    },
+    {
+      "dataset": "hangzhou-data",
+      "source_id": "HZ-S-20260716-013",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "https://westlake.hangzhou.gov.cn",
+      "related_pois": [
+        "HZ-012"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://westlake.hangzhou.gov.cn/"
+    },
+    {
+      "dataset": "hangzhou-data",
+      "source_id": "HZ-S-20260716-014",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "https://www.hangzhou.gov.cn",
+      "related_pois": [
+        "HZ-013"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.hangzhou.gov.cn/"
+    },
+    {
+      "dataset": "hangzhou-data",
+      "source_id": "HZ-S-20260716-015",
+      "source_type": "official",
+      "confidence": "medium",
+      "source_url": "https://www.hangzhou.gov.cn",
+      "related_pois": [
+        "HZ-014"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.hangzhou.gov.cn/"
+    },
+    {
+      "dataset": "hangzhou-data",
+      "source_id": "HZ-S-20260716-016",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "https://www.hangzhou.gov.cn",
+      "related_pois": [
+        "HZ-015"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.hangzhou.gov.cn/"
+    },
+    {
+      "dataset": "hangzhou-data",
+      "source_id": "HZ-S-20260716-017",
+      "source_type": "official",
+      "confidence": "high",
+      "source_url": "https://westlake.hangzhou.gov.cn/art/2026/6/25/art_1229512345_59104567.html",
+      "related_pois": [
+        "HZ-001",
+        "HZ-002",
+        "HZ-003"
+      ],
+      "homepage_only": false,
+      "placeholder_pattern": false,
+      "reachable": false,
+      "status": 404,
+      "final_url": "https://westlake.hangzhou.gov.cn/art/2026/6/25/art_1229512345_59104567.html"
+    },
+    {
+      "dataset": "hangzhou-data",
+      "source_id": "HZ-S-20260716-018",
+      "source_type": "map",
+      "confidence": "medium",
+      "source_url": "https://www.amap.com",
+      "related_pois": [
+        "HZ-002",
+        "HZ-003",
+        "HZ-004",
+        "HZ-005",
+        "HZ-012",
+        "HZ-014"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.amap.com/"
+    },
+    {
+      "dataset": "hangzhou-data",
+      "source_id": "HZ-S-20260716-019",
+      "source_type": "map",
+      "confidence": "medium",
+      "source_url": "https://www.amap.com",
+      "related_pois": [
+        "HZ-006",
+        "HZ-007",
+        "HZ-008",
+        "HZ-009",
+        "HZ-011",
+        "HZ-013",
+        "HZ-015"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.amap.com/"
+    },
+    {
+      "dataset": "hangzhou-data",
+      "source_id": "HZ-S-20260716-020",
+      "source_type": "map",
+      "confidence": "medium",
+      "source_url": "https://www.amap.com",
+      "related_pois": [
+        "HZ-010"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.amap.com/"
+    },
+    {
+      "dataset": "hangzhou-data",
+      "source_id": "HZ-S-20260717-001",
+      "source_type": "official_plus_inference",
+      "confidence": "medium",
+      "source_url": "https://www.hzqx.com",
+      "related_pois": [
+        "HZ-001",
+        "HZ-002",
+        "HZ-003",
+        "HZ-004",
+        "HZ-005",
+        "HZ-006",
+        "HZ-007",
+        "HZ-008",
+        "HZ-009",
+        "HZ-010",
+        "HZ-011",
+        "HZ-012",
+        "HZ-013",
+        "HZ-014",
+        "HZ-015"
+      ],
+      "homepage_only": true,
+      "placeholder_pattern": false,
+      "reachable": false,
+      "status": null,
+      "error": "fetch failed"
+    }
+  ]
+}

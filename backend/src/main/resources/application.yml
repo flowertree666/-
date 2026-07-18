@@ -1,0 +1,53 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    url: jdbc:h2:mem:travel;MODE=MySQL;DB_CLOSE_DELAY=-1
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    defer-datasource-initialization: true
+  h2:
+    console:
+      enabled: true
+app:
+  amap-key: d1f3040e047b5388ad2a9bb0346e54ca
+  amap-enabled: ${AMAP_ENABLED:true}
+  baidu:
+    traffic-ak: wAvA0BXR4x5mwGw6t2EgoPAwHmDdQqnh
+    traffic-enabled: ${BAIDU_TRAFFIC_ENABLED:true}
+  weather:
+    openweather-key: ${OPENWEATHER_API_KEY:}
+    weatherapi-key: ${WEATHERAPI_KEY:}
+  cors-origin: ${CORS_ORIGIN:http://localhost:5173,http://127.0.0.1:5173}
+  deepseek:
+    api-key: sk-17ef05c0f5ac4a3eae9801117b4326a7
+    base-url: ${DEEPSEEK_BASE_URL:https://api.deepseek.com}
+    model: ${DEEPSEEK_MODEL:deepseek-chat}
+    enabled: ${DEEPSEEK_ENABLED:true}
+  research:
+    max-search-results: ${RESEARCH_MAX_RESULTS:40}
+    max-pages: ${RESEARCH_MAX_PAGES:15}
+    min-evidence: ${RESEARCH_MIN_EVIDENCE:5}
+    request-delay-ms: ${RESEARCH_DELAY_MS:800}
+    bocha-api-key: ${BOCHA_API_KEY:}
+    bocha-base-url: ${BOCHA_BASE_URL:https://api.bochaai.com}
+  rag:
+    enabled: ${RAG_ENABLED:true}
+    base-url: ${RAG_BASE_URL:http://127.0.0.1:8091}
+    dataset-root: ${RAG_DATASET_ROOT:../travel-dataset}
+---
+spring:
+  config:
+    activate:
+      on-profile: mysql
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    defer-datasource-initialization: false

@@ -1,0 +1,35 @@
+{
+  "policy_version": "1.0",
+  "as_of": "2026-07-16",
+  "rules": [
+    {
+      "source_type": "official",
+      "topic": "temporary_notice",
+      "default_valid_days": 7,
+      "after_expiry": "exclude_from_current_recommendations",
+      "reason": "临时闭园、限流、活动与交通管制可能快速变化。"
+    },
+    {
+      "source_type": "official",
+      "topic": "opening_reservation_ticket",
+      "default_valid_days": 30,
+      "after_expiry": "retrieve_with_low_confidence_and_require_recheck",
+      "reason": "开放、预约与票价可能在节假日或季节调整。"
+    },
+    {
+      "source_type": "map",
+      "topic": "poi_location_rating",
+      "default_valid_days": 90,
+      "after_expiry": "keep_for_spatial_retrieval_but_refresh_before_displaying_rating",
+      "reason": "坐标通常稳定，评分与营业状态会变化。"
+    },
+    {
+      "source_type": "derived_rule",
+      "topic": "itinerary_constraint",
+      "default_valid_days": 180,
+      "after_expiry": "keep_with_versioned_review",
+      "reason": "体力与片区组合规则需随着 POI 和路线数据更新复核。"
+    }
+  ],
+  "retrieval_filter": "city == query.city AND (valid_until == null OR valid_until >= query_date); expired official records are excluded from factual answers, while expired map records may only support spatial recall."
+}
